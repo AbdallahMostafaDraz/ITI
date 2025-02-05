@@ -1,0 +1,16 @@
+E:\ITI\C#\OOP\Lab13\Calculator\bin\Debug\net8.0-windows\Calculator.exe
+E:\ITI\C#\OOP\Lab13\Calculator\bin\Debug\net8.0-windows\Calculator.deps.json
+E:\ITI\C#\OOP\Lab13\Calculator\bin\Debug\net8.0-windows\Calculator.runtimeconfig.json
+E:\ITI\C#\OOP\Lab13\Calculator\bin\Debug\net8.0-windows\Calculator.dll
+E:\ITI\C#\OOP\Lab13\Calculator\bin\Debug\net8.0-windows\Calculator.pdb
+E:\ITI\C#\OOP\Lab13\Calculator\obj\Debug\net8.0-windows\Calculator.Form1.resources
+E:\ITI\C#\OOP\Lab13\Calculator\obj\Debug\net8.0-windows\Calculator.csproj.GenerateResource.cache
+E:\ITI\C#\OOP\Lab13\Calculator\obj\Debug\net8.0-windows\Calculator.GeneratedMSBuildEditorConfig.editorconfig
+E:\ITI\C#\OOP\Lab13\Calculator\obj\Debug\net8.0-windows\Calculator.AssemblyInfoInputs.cache
+E:\ITI\C#\OOP\Lab13\Calculator\obj\Debug\net8.0-windows\Calculator.AssemblyInfo.cs
+E:\ITI\C#\OOP\Lab13\Calculator\obj\Debug\net8.0-windows\Calculator.csproj.CoreCompileInputs.cache
+E:\ITI\C#\OOP\Lab13\Calculator\obj\Debug\net8.0-windows\Calculator.dll
+E:\ITI\C#\OOP\Lab13\Calculator\obj\Debug\net8.0-windows\refint\Calculator.dll
+E:\ITI\C#\OOP\Lab13\Calculator\obj\Debug\net8.0-windows\Calculator.pdb
+E:\ITI\C#\OOP\Lab13\Calculator\obj\Debug\net8.0-windows\Calculator.genruntimeconfig.cache
+E:\ITI\C#\OOP\Lab13\Calculator\obj\Debug\net8.0-windows\ref\Calculator.dll

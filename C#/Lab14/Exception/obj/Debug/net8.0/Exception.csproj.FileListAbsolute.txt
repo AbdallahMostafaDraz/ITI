@@ -1,0 +1,14 @@
+E:\ITI\C#\OOP\Lab14\Exception\bin\Debug\net8.0\Exception.exe
+E:\ITI\C#\OOP\Lab14\Exception\bin\Debug\net8.0\Exception.deps.json
+E:\ITI\C#\OOP\Lab14\Exception\bin\Debug\net8.0\Exception.runtimeconfig.json
+E:\ITI\C#\OOP\Lab14\Exception\bin\Debug\net8.0\Exception.dll
+E:\ITI\C#\OOP\Lab14\Exception\bin\Debug\net8.0\Exception.pdb
+E:\ITI\C#\OOP\Lab14\Exception\obj\Debug\net8.0\Exception.GeneratedMSBuildEditorConfig.editorconfig
+E:\ITI\C#\OOP\Lab14\Exception\obj\Debug\net8.0\Exception.AssemblyInfoInputs.cache
+E:\ITI\C#\OOP\Lab14\Exception\obj\Debug\net8.0\Exception.AssemblyInfo.cs
+E:\ITI\C#\OOP\Lab14\Exception\obj\Debug\net8.0\Exception.csproj.CoreCompileInputs.cache
+E:\ITI\C#\OOP\Lab14\Exception\obj\Debug\net8.0\Exception.dll
+E:\ITI\C#\OOP\Lab14\Exception\obj\Debug\net8.0\refint\Exception.dll
+E:\ITI\C#\OOP\Lab14\Exception\obj\Debug\net8.0\Exception.pdb
+E:\ITI\C#\OOP\Lab14\Exception\obj\Debug\net8.0\Exception.genruntimeconfig.cache
+E:\ITI\C#\OOP\Lab14\Exception\obj\Debug\net8.0\ref\Exception.dll

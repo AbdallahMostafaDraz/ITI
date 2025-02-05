@@ -1,0 +1,14 @@
+E:\ITI\C#\OOP\Lab12New\Demo1\bin\Debug\net8.0\Demo1.exe
+E:\ITI\C#\OOP\Lab12New\Demo1\bin\Debug\net8.0\Demo1.deps.json
+E:\ITI\C#\OOP\Lab12New\Demo1\bin\Debug\net8.0\Demo1.runtimeconfig.json
+E:\ITI\C#\OOP\Lab12New\Demo1\bin\Debug\net8.0\Demo1.dll
+E:\ITI\C#\OOP\Lab12New\Demo1\bin\Debug\net8.0\Demo1.pdb
+E:\ITI\C#\OOP\Lab12New\Demo1\obj\Debug\net8.0\Demo1.GeneratedMSBuildEditorConfig.editorconfig
+E:\ITI\C#\OOP\Lab12New\Demo1\obj\Debug\net8.0\Demo1.AssemblyInfoInputs.cache
+E:\ITI\C#\OOP\Lab12New\Demo1\obj\Debug\net8.0\Demo1.AssemblyInfo.cs
+E:\ITI\C#\OOP\Lab12New\Demo1\obj\Debug\net8.0\Demo1.csproj.CoreCompileInputs.cache
+E:\ITI\C#\OOP\Lab12New\Demo1\obj\Debug\net8.0\Demo1.dll
+E:\ITI\C#\OOP\Lab12New\Demo1\obj\Debug\net8.0\refint\Demo1.dll
+E:\ITI\C#\OOP\Lab12New\Demo1\obj\Debug\net8.0\Demo1.pdb
+E:\ITI\C#\OOP\Lab12New\Demo1\obj\Debug\net8.0\Demo1.genruntimeconfig.cache
+E:\ITI\C#\OOP\Lab12New\Demo1\obj\Debug\net8.0\ref\Demo1.dll

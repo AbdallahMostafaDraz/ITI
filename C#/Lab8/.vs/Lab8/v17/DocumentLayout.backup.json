@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ITI\\C#\\OOP\\Lab8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{195796A6-F261-462B-B391-1BF7573916E1}|Demo3\\Demo3.csproj|e:\\iti\\c#\\oop\\lab8\\demo3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{195796A6-F261-462B-B391-1BF7573916E1}|Demo3\\Demo3.csproj|solutionrelative:demo3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{195796A6-F261-462B-B391-1BF7573916E1}|Demo3\\Demo3.csproj|e:\\iti\\c#\\oop\\lab8\\demo3\\duration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{195796A6-F261-462B-B391-1BF7573916E1}|Demo3\\Demo3.csproj|solutionrelative:demo3\\duration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE8C6E1-738C-4CD6-9E0F-AEBBD7035DFB}|Demo2\\Demo2.csproj|e:\\iti\\c#\\oop\\lab8\\demo2\\fraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCE8C6E1-738C-4CD6-9E0F-AEBBD7035DFB}|Demo2\\Demo2.csproj|solutionrelative:demo2\\fraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BDEA810-219E-45D6-9FA0-457E19A6FF9D}|Demo1\\Demo1.csproj|e:\\iti\\c#\\oop\\lab8\\demo1\\complex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BDEA810-219E-45D6-9FA0-457E19A6FF9D}|Demo1\\Demo1.csproj|solutionrelative:demo1\\complex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BDEA810-219E-45D6-9FA0-457E19A6FF9D}|Demo1\\Demo1.csproj|e:\\iti\\c#\\oop\\lab8\\demo1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BDEA810-219E-45D6-9FA0-457E19A6FF9D}|Demo1\\Demo1.csproj|solutionrelative:demo1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ITI\\C#\\OOP\\Lab8\\Demo3\\Program.cs",
+              "RelativeDocumentMoniker": "Demo3\\Program.cs",
+              "ToolTip": "E:\\ITI\\C#\\OOP\\Lab8\\Demo3\\Program.cs",
+              "RelativeToolTip": "Demo3\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T07:53:36.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Duration.cs",
+              "DocumentMoniker": "E:\\ITI\\C#\\OOP\\Lab8\\Demo3\\Duration.cs",
+              "RelativeDocumentMoniker": "Demo3\\Duration.cs",
+              "ToolTip": "E:\\ITI\\C#\\OOP\\Lab8\\Demo3\\Duration.cs*",
+              "RelativeToolTip": "Demo3\\Duration.cs*",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAYwKUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T07:49:01.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Fraction.cs",
+              "DocumentMoniker": "E:\\ITI\\C#\\OOP\\Lab8\\Demo2\\Fraction.cs",
+              "RelativeDocumentMoniker": "Demo2\\Fraction.cs",
+              "ToolTip": "E:\\ITI\\C#\\OOP\\Lab8\\Demo2\\Fraction.cs",
+              "RelativeToolTip": "Demo2\\Fraction.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAADQAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T07:47:12.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ITI\\C#\\OOP\\Lab8\\Demo1\\Program.cs",
+              "RelativeDocumentMoniker": "Demo1\\Program.cs",
+              "ToolTip": "E:\\ITI\\C#\\OOP\\Lab8\\Demo1\\Program.cs",
+              "RelativeToolTip": "Demo1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T07:46:15.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Complex.cs",
+              "DocumentMoniker": "E:\\ITI\\C#\\OOP\\Lab8\\Demo1\\Complex.cs",
+              "RelativeDocumentMoniker": "Demo1\\Complex.cs",
+              "ToolTip": "E:\\ITI\\C#\\OOP\\Lab8\\Demo1\\Complex.cs",
+              "RelativeToolTip": "Demo1\\Complex.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T07:41:42.077Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

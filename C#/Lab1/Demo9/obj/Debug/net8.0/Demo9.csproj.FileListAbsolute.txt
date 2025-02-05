@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\ITI\C#\Lab1\Demo9\bin\Debug\net8.0\Demo9.exe
+C:\Users\User\Desktop\ITI\C#\Lab1\Demo9\bin\Debug\net8.0\Demo9.deps.json
+C:\Users\User\Desktop\ITI\C#\Lab1\Demo9\bin\Debug\net8.0\Demo9.runtimeconfig.json
+C:\Users\User\Desktop\ITI\C#\Lab1\Demo9\bin\Debug\net8.0\Demo9.dll
+C:\Users\User\Desktop\ITI\C#\Lab1\Demo9\bin\Debug\net8.0\Demo9.pdb
+C:\Users\User\Desktop\ITI\C#\Lab1\Demo9\obj\Debug\net8.0\Demo9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\ITI\C#\Lab1\Demo9\obj\Debug\net8.0\Demo9.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\ITI\C#\Lab1\Demo9\obj\Debug\net8.0\Demo9.AssemblyInfo.cs
+C:\Users\User\Desktop\ITI\C#\Lab1\Demo9\obj\Debug\net8.0\Demo9.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\ITI\C#\Lab1\Demo9\obj\Debug\net8.0\Demo9.dll
+C:\Users\User\Desktop\ITI\C#\Lab1\Demo9\obj\Debug\net8.0\refint\Demo9.dll
+C:\Users\User\Desktop\ITI\C#\Lab1\Demo9\obj\Debug\net8.0\Demo9.pdb
+C:\Users\User\Desktop\ITI\C#\Lab1\Demo9\obj\Debug\net8.0\Demo9.genruntimeconfig.cache
+C:\Users\User\Desktop\ITI\C#\Lab1\Demo9\obj\Debug\net8.0\ref\Demo9.dll

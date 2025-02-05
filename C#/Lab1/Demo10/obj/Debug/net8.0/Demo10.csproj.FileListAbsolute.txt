@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\ITI\C#\Lab1\Demo10\bin\Debug\net8.0\Demo10.exe
+C:\Users\User\Desktop\ITI\C#\Lab1\Demo10\bin\Debug\net8.0\Demo10.deps.json
+C:\Users\User\Desktop\ITI\C#\Lab1\Demo10\bin\Debug\net8.0\Demo10.runtimeconfig.json
+C:\Users\User\Desktop\ITI\C#\Lab1\Demo10\bin\Debug\net8.0\Demo10.dll
+C:\Users\User\Desktop\ITI\C#\Lab1\Demo10\bin\Debug\net8.0\Demo10.pdb
+C:\Users\User\Desktop\ITI\C#\Lab1\Demo10\obj\Debug\net8.0\Demo10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\ITI\C#\Lab1\Demo10\obj\Debug\net8.0\Demo10.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\ITI\C#\Lab1\Demo10\obj\Debug\net8.0\Demo10.AssemblyInfo.cs
+C:\Users\User\Desktop\ITI\C#\Lab1\Demo10\obj\Debug\net8.0\Demo10.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\ITI\C#\Lab1\Demo10\obj\Debug\net8.0\Demo10.dll
+C:\Users\User\Desktop\ITI\C#\Lab1\Demo10\obj\Debug\net8.0\refint\Demo10.dll
+C:\Users\User\Desktop\ITI\C#\Lab1\Demo10\obj\Debug\net8.0\Demo10.pdb
+C:\Users\User\Desktop\ITI\C#\Lab1\Demo10\obj\Debug\net8.0\Demo10.genruntimeconfig.cache
+C:\Users\User\Desktop\ITI\C#\Lab1\Demo10\obj\Debug\net8.0\ref\Demo10.dll

@@ -1,0 +1,14 @@
+E:\ITI\C#\OOP\Lab14\EmployeeDemo\bin\Debug\net8.0\EmployeeDemo.exe
+E:\ITI\C#\OOP\Lab14\EmployeeDemo\bin\Debug\net8.0\EmployeeDemo.deps.json
+E:\ITI\C#\OOP\Lab14\EmployeeDemo\bin\Debug\net8.0\EmployeeDemo.runtimeconfig.json
+E:\ITI\C#\OOP\Lab14\EmployeeDemo\bin\Debug\net8.0\EmployeeDemo.dll
+E:\ITI\C#\OOP\Lab14\EmployeeDemo\bin\Debug\net8.0\EmployeeDemo.pdb
+E:\ITI\C#\OOP\Lab14\EmployeeDemo\obj\Debug\net8.0\EmployeeDemo.GeneratedMSBuildEditorConfig.editorconfig
+E:\ITI\C#\OOP\Lab14\EmployeeDemo\obj\Debug\net8.0\EmployeeDemo.AssemblyInfoInputs.cache
+E:\ITI\C#\OOP\Lab14\EmployeeDemo\obj\Debug\net8.0\EmployeeDemo.AssemblyInfo.cs
+E:\ITI\C#\OOP\Lab14\EmployeeDemo\obj\Debug\net8.0\EmployeeDemo.csproj.CoreCompileInputs.cache
+E:\ITI\C#\OOP\Lab14\EmployeeDemo\obj\Debug\net8.0\EmployeeDemo.dll
+E:\ITI\C#\OOP\Lab14\EmployeeDemo\obj\Debug\net8.0\refint\EmployeeDemo.dll
+E:\ITI\C#\OOP\Lab14\EmployeeDemo\obj\Debug\net8.0\EmployeeDemo.pdb
+E:\ITI\C#\OOP\Lab14\EmployeeDemo\obj\Debug\net8.0\EmployeeDemo.genruntimeconfig.cache
+E:\ITI\C#\OOP\Lab14\EmployeeDemo\obj\Debug\net8.0\ref\EmployeeDemo.dll

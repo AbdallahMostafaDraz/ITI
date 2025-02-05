@@ -1,0 +1,14 @@
+E:\ITI\C#\OOP\Lab13\Indexer\bin\Debug\net8.0\Indexer.exe
+E:\ITI\C#\OOP\Lab13\Indexer\bin\Debug\net8.0\Indexer.deps.json
+E:\ITI\C#\OOP\Lab13\Indexer\bin\Debug\net8.0\Indexer.runtimeconfig.json
+E:\ITI\C#\OOP\Lab13\Indexer\bin\Debug\net8.0\Indexer.dll
+E:\ITI\C#\OOP\Lab13\Indexer\bin\Debug\net8.0\Indexer.pdb
+E:\ITI\C#\OOP\Lab13\Indexer\obj\Debug\net8.0\Indexer.GeneratedMSBuildEditorConfig.editorconfig
+E:\ITI\C#\OOP\Lab13\Indexer\obj\Debug\net8.0\Indexer.AssemblyInfoInputs.cache
+E:\ITI\C#\OOP\Lab13\Indexer\obj\Debug\net8.0\Indexer.AssemblyInfo.cs
+E:\ITI\C#\OOP\Lab13\Indexer\obj\Debug\net8.0\Indexer.csproj.CoreCompileInputs.cache
+E:\ITI\C#\OOP\Lab13\Indexer\obj\Debug\net8.0\Indexer.dll
+E:\ITI\C#\OOP\Lab13\Indexer\obj\Debug\net8.0\refint\Indexer.dll
+E:\ITI\C#\OOP\Lab13\Indexer\obj\Debug\net8.0\Indexer.pdb
+E:\ITI\C#\OOP\Lab13\Indexer\obj\Debug\net8.0\Indexer.genruntimeconfig.cache
+E:\ITI\C#\OOP\Lab13\Indexer\obj\Debug\net8.0\ref\Indexer.dll

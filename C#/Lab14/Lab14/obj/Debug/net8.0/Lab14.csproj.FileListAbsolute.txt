@@ -1,0 +1,14 @@
+E:\ITI\C#\OOP\Lab14\Lab14\bin\Debug\net8.0\Lab14.exe
+E:\ITI\C#\OOP\Lab14\Lab14\bin\Debug\net8.0\Lab14.deps.json
+E:\ITI\C#\OOP\Lab14\Lab14\bin\Debug\net8.0\Lab14.runtimeconfig.json
+E:\ITI\C#\OOP\Lab14\Lab14\bin\Debug\net8.0\Lab14.dll
+E:\ITI\C#\OOP\Lab14\Lab14\bin\Debug\net8.0\Lab14.pdb
+E:\ITI\C#\OOP\Lab14\Lab14\obj\Debug\net8.0\Lab14.GeneratedMSBuildEditorConfig.editorconfig
+E:\ITI\C#\OOP\Lab14\Lab14\obj\Debug\net8.0\Lab14.AssemblyInfoInputs.cache
+E:\ITI\C#\OOP\Lab14\Lab14\obj\Debug\net8.0\Lab14.AssemblyInfo.cs
+E:\ITI\C#\OOP\Lab14\Lab14\obj\Debug\net8.0\Lab14.csproj.CoreCompileInputs.cache
+E:\ITI\C#\OOP\Lab14\Lab14\obj\Debug\net8.0\Lab14.dll
+E:\ITI\C#\OOP\Lab14\Lab14\obj\Debug\net8.0\refint\Lab14.dll
+E:\ITI\C#\OOP\Lab14\Lab14\obj\Debug\net8.0\Lab14.pdb
+E:\ITI\C#\OOP\Lab14\Lab14\obj\Debug\net8.0\Lab14.genruntimeconfig.cache
+E:\ITI\C#\OOP\Lab14\Lab14\obj\Debug\net8.0\ref\Lab14.dll

@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ITI\\C#\\OOP\\Lab14\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7897331C-CC90-48C3-BB68-06072D2A8256}|EmployeeDemo\\EmployeeDemo.csproj|e:\\iti\\c#\\oop\\lab14\\employeedemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7897331C-CC90-48C3-BB68-06072D2A8256}|EmployeeDemo\\EmployeeDemo.csproj|solutionrelative:employeedemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7897331C-CC90-48C3-BB68-06072D2A8256}|EmployeeDemo\\EmployeeDemo.csproj|e:\\iti\\c#\\oop\\lab14\\employeedemo\\employeedemo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7897331C-CC90-48C3-BB68-06072D2A8256}|EmployeeDemo\\EmployeeDemo.csproj|solutionrelative:employeedemo\\employeedemo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19C0E462-6C97-4AFC-A2C1-D3730B7F3C83}|Lab14\\Lab14.csproj|e:\\iti\\c#\\oop\\lab14\\lab14\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19C0E462-6C97-4AFC-A2C1-D3730B7F3C83}|Lab14\\Lab14.csproj|solutionrelative:lab14\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8C8C52D-593E-4832-92AA-33343A8C625D}|Exception\\ExceptionDemo.csproj|e:\\iti\\c#\\oop\\lab14\\exception\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8C8C52D-593E-4832-92AA-33343A8C625D}|Exception\\ExceptionDemo.csproj|solutionrelative:exception\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ITI\\C#\\OOP\\Lab14\\EmployeeDemo\\Program.cs",
+              "RelativeDocumentMoniker": "EmployeeDemo\\Program.cs",
+              "ToolTip": "E:\\ITI\\C#\\OOP\\Lab14\\EmployeeDemo\\Program.cs",
+              "RelativeToolTip": "EmployeeDemo\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T11:40:02.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeDemo",
+              "DocumentMoniker": "E:\\ITI\\C#\\OOP\\Lab14\\EmployeeDemo\\EmployeeDemo.csproj",
+              "RelativeDocumentMoniker": "EmployeeDemo\\EmployeeDemo.csproj",
+              "ToolTip": "E:\\ITI\\C#\\OOP\\Lab14\\EmployeeDemo\\EmployeeDemo.csproj",
+              "RelativeToolTip": "EmployeeDemo\\EmployeeDemo.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-05T11:40:01.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ITI\\C#\\OOP\\Lab14\\Exception\\Program.cs",
+              "RelativeDocumentMoniker": "Exception\\Program.cs",
+              "ToolTip": "E:\\ITI\\C#\\OOP\\Lab14\\Exception\\Program.cs",
+              "RelativeToolTip": "Exception\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T11:37:25.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ITI\\C#\\OOP\\Lab14\\Lab14\\Program.cs",
+              "RelativeDocumentMoniker": "Lab14\\Program.cs",
+              "ToolTip": "E:\\ITI\\C#\\OOP\\Lab14\\Lab14\\Program.cs",
+              "RelativeToolTip": "Lab14\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T11:31:08.946Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+E:\ITI\C#\OOP\Lab10\MyLib\bin\Debug\net8.0\MyLib.deps.json
+E:\ITI\C#\OOP\Lab10\MyLib\bin\Debug\net8.0\MyLib.dll
+E:\ITI\C#\OOP\Lab10\MyLib\bin\Debug\net8.0\MyLib.pdb
+E:\ITI\C#\OOP\Lab10\MyLib\obj\Debug\net8.0\MyLib.GeneratedMSBuildEditorConfig.editorconfig
+E:\ITI\C#\OOP\Lab10\MyLib\obj\Debug\net8.0\MyLib.AssemblyInfoInputs.cache
+E:\ITI\C#\OOP\Lab10\MyLib\obj\Debug\net8.0\MyLib.AssemblyInfo.cs
+E:\ITI\C#\OOP\Lab10\MyLib\obj\Debug\net8.0\MyLib.csproj.CoreCompileInputs.cache
+E:\ITI\C#\OOP\Lab10\MyLib\obj\Debug\net8.0\MyLib.dll
+E:\ITI\C#\OOP\Lab10\MyLib\obj\Debug\net8.0\refint\MyLib.dll
+E:\ITI\C#\OOP\Lab10\MyLib\obj\Debug\net8.0\MyLib.pdb
+E:\ITI\C#\OOP\Lab10\MyLib\obj\Debug\net8.0\ref\MyLib.dll

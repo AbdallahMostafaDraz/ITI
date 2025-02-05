@@ -1,0 +1,16 @@
+E:\ITI\C#\OOP\Lab13\Registraion\bin\Debug\net8.0-windows\Registraion.exe
+E:\ITI\C#\OOP\Lab13\Registraion\bin\Debug\net8.0-windows\Registraion.deps.json
+E:\ITI\C#\OOP\Lab13\Registraion\bin\Debug\net8.0-windows\Registraion.runtimeconfig.json
+E:\ITI\C#\OOP\Lab13\Registraion\bin\Debug\net8.0-windows\Registraion.dll
+E:\ITI\C#\OOP\Lab13\Registraion\bin\Debug\net8.0-windows\Registraion.pdb
+E:\ITI\C#\OOP\Lab13\Registraion\obj\Debug\net8.0-windows\Registraion.Form1.resources
+E:\ITI\C#\OOP\Lab13\Registraion\obj\Debug\net8.0-windows\Registraion.csproj.GenerateResource.cache
+E:\ITI\C#\OOP\Lab13\Registraion\obj\Debug\net8.0-windows\Registraion.GeneratedMSBuildEditorConfig.editorconfig
+E:\ITI\C#\OOP\Lab13\Registraion\obj\Debug\net8.0-windows\Registraion.AssemblyInfoInputs.cache
+E:\ITI\C#\OOP\Lab13\Registraion\obj\Debug\net8.0-windows\Registraion.AssemblyInfo.cs
+E:\ITI\C#\OOP\Lab13\Registraion\obj\Debug\net8.0-windows\Registraion.csproj.CoreCompileInputs.cache
+E:\ITI\C#\OOP\Lab13\Registraion\obj\Debug\net8.0-windows\Registraion.dll
+E:\ITI\C#\OOP\Lab13\Registraion\obj\Debug\net8.0-windows\refint\Registraion.dll
+E:\ITI\C#\OOP\Lab13\Registraion\obj\Debug\net8.0-windows\Registraion.pdb
+E:\ITI\C#\OOP\Lab13\Registraion\obj\Debug\net8.0-windows\Registraion.genruntimeconfig.cache
+E:\ITI\C#\OOP\Lab13\Registraion\obj\Debug\net8.0-windows\ref\Registraion.dll

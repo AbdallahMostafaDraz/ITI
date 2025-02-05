@@ -1,0 +1,140 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\ITI\\C#\\Lab2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B048212C-FC4A-4AEF-B69F-FF05FFFA7F1E}|Demo4\\Demo4.csproj|c:\\users\\user\\desktop\\iti\\c#\\lab2\\demo4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B048212C-FC4A-4AEF-B69F-FF05FFFA7F1E}|Demo4\\Demo4.csproj|solutionrelative:demo4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CD08041-F0E8-4573-9808-F1224B4EFF13}|Demo5\\Demo5.csproj|c:\\users\\user\\desktop\\iti\\c#\\lab2\\demo5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CD08041-F0E8-4573-9808-F1224B4EFF13}|Demo5\\Demo5.csproj|solutionrelative:demo5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CD08041-F0E8-4573-9808-F1224B4EFF13}|Demo5\\Demo5.csproj|c:\\users\\user\\desktop\\iti\\c#\\lab2\\demo5\\demo5.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5CD08041-F0E8-4573-9808-F1224B4EFF13}|Demo5\\Demo5.csproj|solutionrelative:demo5\\demo5.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B048212C-FC4A-4AEF-B69F-FF05FFFA7F1E}|Demo4\\Demo4.csproj|c:\\users\\user\\desktop\\iti\\c#\\lab2\\demo4\\demo4.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B048212C-FC4A-4AEF-B69F-FF05FFFA7F1E}|Demo4\\Demo4.csproj|solutionrelative:demo4\\demo4.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04250FDF-8C17-442D-99EF-B7F00EEDE820}|Demo1\\Demo1.csproj|c:\\users\\user\\desktop\\iti\\c#\\lab2\\demo1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04250FDF-8C17-442D-99EF-B7F00EEDE820}|Demo1\\Demo1.csproj|solutionrelative:demo1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F903B4B1-A878-4C0E-A266-1D060165EF74}|Demo2\\Demo2.csproj|c:\\users\\user\\desktop\\iti\\c#\\lab2\\demo2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F903B4B1-A878-4C0E-A266-1D060165EF74}|Demo2\\Demo2.csproj|solutionrelative:demo2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C62EEA40-916A-4D39-9DF6-651BFEE7A7F6}|Demo3\\Demo3.csproj|c:\\users\\user\\desktop\\iti\\c#\\lab2\\demo3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C62EEA40-916A-4D39-9DF6-651BFEE7A7F6}|Demo3\\Demo3.csproj|solutionrelative:demo3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Demo5",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ITI\\C#\\Lab2\\Demo5\\Demo5.csproj",
+              "RelativeDocumentMoniker": "Demo5\\Demo5.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ITI\\C#\\Lab2\\Demo5\\Demo5.csproj",
+              "RelativeToolTip": "Demo5\\Demo5.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-15T15:27:40.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Demo4.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ITI\\C#\\Lab2\\Demo4\\Demo4.csproj",
+              "RelativeDocumentMoniker": "Demo4\\Demo4.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ITI\\C#\\Lab2\\Demo4\\Demo4.csproj",
+              "RelativeToolTip": "Demo4\\Demo4.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-15T15:12:30.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ITI\\C#\\Lab2\\Demo1\\Program.cs",
+              "RelativeDocumentMoniker": "Demo1\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ITI\\C#\\Lab2\\Demo1\\Program.cs",
+              "RelativeToolTip": "Demo1\\Program.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T15:11:16.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ITI\\C#\\Lab2\\Demo5\\Program.cs",
+              "RelativeDocumentMoniker": "Demo5\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ITI\\C#\\Lab2\\Demo5\\Program.cs",
+              "RelativeToolTip": "Demo5\\Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwAIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T14:23:09.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ITI\\C#\\Lab2\\Demo4\\Program.cs",
+              "RelativeDocumentMoniker": "Demo4\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ITI\\C#\\Lab2\\Demo4\\Program.cs",
+              "RelativeToolTip": "Demo4\\Program.cs",
+              "ViewState": "AgIAABQAAACwVdJcQMcwwCMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T13:26:12.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ITI\\C#\\Lab2\\Demo2\\Program.cs",
+              "RelativeDocumentMoniker": "Demo2\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ITI\\C#\\Lab2\\Demo2\\Program.cs",
+              "RelativeToolTip": "Demo2\\Program.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAcwE0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T12:33:53.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ITI\\C#\\Lab2\\Demo3\\Program.cs",
+              "RelativeDocumentMoniker": "Demo3\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ITI\\C#\\Lab2\\Demo3\\Program.cs",
+              "RelativeToolTip": "Demo3\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T12:26:40.709Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

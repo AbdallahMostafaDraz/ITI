@@ -1,0 +1,14 @@
+E:\ITI\C#\OOP\Lab8\Demo3\bin\Debug\net8.0\Demo3.exe
+E:\ITI\C#\OOP\Lab8\Demo3\bin\Debug\net8.0\Demo3.deps.json
+E:\ITI\C#\OOP\Lab8\Demo3\bin\Debug\net8.0\Demo3.runtimeconfig.json
+E:\ITI\C#\OOP\Lab8\Demo3\bin\Debug\net8.0\Demo3.dll
+E:\ITI\C#\OOP\Lab8\Demo3\bin\Debug\net8.0\Demo3.pdb
+E:\ITI\C#\OOP\Lab8\Demo3\obj\Debug\net8.0\Demo3.GeneratedMSBuildEditorConfig.editorconfig
+E:\ITI\C#\OOP\Lab8\Demo3\obj\Debug\net8.0\Demo3.AssemblyInfoInputs.cache
+E:\ITI\C#\OOP\Lab8\Demo3\obj\Debug\net8.0\Demo3.AssemblyInfo.cs
+E:\ITI\C#\OOP\Lab8\Demo3\obj\Debug\net8.0\Demo3.csproj.CoreCompileInputs.cache
+E:\ITI\C#\OOP\Lab8\Demo3\obj\Debug\net8.0\Demo3.dll
+E:\ITI\C#\OOP\Lab8\Demo3\obj\Debug\net8.0\refint\Demo3.dll
+E:\ITI\C#\OOP\Lab8\Demo3\obj\Debug\net8.0\Demo3.pdb
+E:\ITI\C#\OOP\Lab8\Demo3\obj\Debug\net8.0\Demo3.genruntimeconfig.cache
+E:\ITI\C#\OOP\Lab8\Demo3\obj\Debug\net8.0\ref\Demo3.dll

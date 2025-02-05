@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ITI\\C#\\OOP\\Lab12New\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8F99C4A4-E419-4E6A-868B-FCA355134FB7}|Demo1\\Demo1.csproj|e:\\iti\\c#\\oop\\lab12new\\demo1\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F99C4A4-E419-4E6A-868B-FCA355134FB7}|Demo1\\Demo1.csproj|solutionrelative:demo1\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F99C4A4-E419-4E6A-868B-FCA355134FB7}|Demo1\\Demo1.csproj|e:\\iti\\c#\\oop\\lab12new\\demo1\\element.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F99C4A4-E419-4E6A-868B-FCA355134FB7}|Demo1\\Demo1.csproj|solutionrelative:demo1\\element.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F99C4A4-E419-4E6A-868B-FCA355134FB7}|Demo1\\Demo1.csproj|e:\\iti\\c#\\oop\\lab12new\\demo1\\refree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F99C4A4-E419-4E6A-868B-FCA355134FB7}|Demo1\\Demo1.csproj|solutionrelative:demo1\\refree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F99C4A4-E419-4E6A-868B-FCA355134FB7}|Demo1\\Demo1.csproj|e:\\iti\\c#\\oop\\lab12new\\demo1\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F99C4A4-E419-4E6A-868B-FCA355134FB7}|Demo1\\Demo1.csproj|solutionrelative:demo1\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7F06FD-0C39-477D-B406-61C8F1D301A5}|Demo2\\Demo2.csproj|e:\\iti\\c#\\oop\\lab12new\\demo2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F7F06FD-0C39-477D-B406-61C8F1D301A5}|Demo2\\Demo2.csproj|solutionrelative:demo2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7F06FD-0C39-477D-B406-61C8F1D301A5}|Demo2\\Demo2.csproj|e:\\iti\\c#\\oop\\lab12new\\demo2\\libraryengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F7F06FD-0C39-477D-B406-61C8F1D301A5}|Demo2\\Demo2.csproj|solutionrelative:demo2\\libraryengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7F06FD-0C39-477D-B406-61C8F1D301A5}|Demo2\\Demo2.csproj|e:\\iti\\c#\\oop\\lab12new\\demo2\\bookfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F7F06FD-0C39-477D-B406-61C8F1D301A5}|Demo2\\Demo2.csproj|solutionrelative:demo2\\bookfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F7F06FD-0C39-477D-B406-61C8F1D301A5}|Demo2\\Demo2.csproj|e:\\iti\\c#\\oop\\lab12new\\demo2\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F7F06FD-0C39-477D-B406-61C8F1D301A5}|Demo2\\Demo2.csproj|solutionrelative:demo2\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F99C4A4-E419-4E6A-868B-FCA355134FB7}|Demo1\\Demo1.csproj|e:\\iti\\c#\\oop\\lab12new\\demo1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F99C4A4-E419-4E6A-868B-FCA355134FB7}|Demo1\\Demo1.csproj|solutionrelative:demo1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ITI\\C#\\OOP\\Lab12New\\Demo2\\Program.cs",
+              "RelativeDocumentMoniker": "Demo2\\Program.cs",
+              "ToolTip": "E:\\ITI\\C#\\OOP\\Lab12New\\Demo2\\Program.cs",
+              "RelativeToolTip": "Demo2\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAcwCMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T12:26:58.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LibraryEngine.cs",
+              "DocumentMoniker": "E:\\ITI\\C#\\OOP\\Lab12New\\Demo2\\LibraryEngine.cs",
+              "RelativeDocumentMoniker": "Demo2\\LibraryEngine.cs",
+              "ToolTip": "E:\\ITI\\C#\\OOP\\Lab12New\\Demo2\\LibraryEngine.cs",
+              "RelativeToolTip": "Demo2\\LibraryEngine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T12:25:20.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BookFunctions.cs",
+              "DocumentMoniker": "E:\\ITI\\C#\\OOP\\Lab12New\\Demo2\\BookFunctions.cs",
+              "RelativeDocumentMoniker": "Demo2\\BookFunctions.cs",
+              "ToolTip": "E:\\ITI\\C#\\OOP\\Lab12New\\Demo2\\BookFunctions.cs",
+              "RelativeToolTip": "Demo2\\BookFunctions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T12:25:11.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Book.cs",
+              "DocumentMoniker": "E:\\ITI\\C#\\OOP\\Lab12New\\Demo2\\Book.cs",
+              "RelativeDocumentMoniker": "Demo2\\Book.cs",
+              "ToolTip": "E:\\ITI\\C#\\OOP\\Lab12New\\Demo2\\Book.cs",
+              "RelativeToolTip": "Demo2\\Book.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA+wBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T12:25:04.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Refree.cs",
+              "DocumentMoniker": "E:\\ITI\\C#\\OOP\\Lab12New\\Demo1\\Refree.cs",
+              "RelativeDocumentMoniker": "Demo1\\Refree.cs",
+              "ToolTip": "E:\\ITI\\C#\\OOP\\Lab12New\\Demo1\\Refree.cs",
+              "RelativeToolTip": "Demo1\\Refree.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T12:22:34.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Player.cs",
+              "DocumentMoniker": "E:\\ITI\\C#\\OOP\\Lab12New\\Demo1\\Player.cs",
+              "RelativeDocumentMoniker": "Demo1\\Player.cs",
+              "ToolTip": "E:\\ITI\\C#\\OOP\\Lab12New\\Demo1\\Player.cs",
+              "RelativeToolTip": "Demo1\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T12:22:32.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Element.cs",
+              "DocumentMoniker": "E:\\ITI\\C#\\OOP\\Lab12New\\Demo1\\Element.cs",
+              "RelativeDocumentMoniker": "Demo1\\Element.cs",
+              "ToolTip": "E:\\ITI\\C#\\OOP\\Lab12New\\Demo1\\Element.cs",
+              "RelativeToolTip": "Demo1\\Element.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T12:22:19.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ball.cs",
+              "DocumentMoniker": "E:\\ITI\\C#\\OOP\\Lab12New\\Demo1\\Ball.cs",
+              "RelativeDocumentMoniker": "Demo1\\Ball.cs",
+              "ToolTip": "E:\\ITI\\C#\\OOP\\Lab12New\\Demo1\\Ball.cs",
+              "RelativeToolTip": "Demo1\\Ball.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T12:22:06.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ITI\\C#\\OOP\\Lab12New\\Demo1\\Program.cs",
+              "RelativeDocumentMoniker": "Demo1\\Program.cs",
+              "ToolTip": "E:\\ITI\\C#\\OOP\\Lab12New\\Demo1\\Program.cs",
+              "RelativeToolTip": "Demo1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T10:57:42.029Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

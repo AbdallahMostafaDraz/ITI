@@ -1,0 +1,123 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ITI\\C#\\OOP\\Lab7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4868600A-4982-4962-B7A5-65D376A67616}|Demo3\\Demo3.csproj|e:\\iti\\c#\\oop\\lab7\\demo3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4868600A-4982-4962-B7A5-65D376A67616}|Demo3\\Demo3.csproj|solutionrelative:demo3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4868600A-4982-4962-B7A5-65D376A67616}|Demo3\\Demo3.csproj|e:\\iti\\c#\\oop\\lab7\\demo3\\complex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4868600A-4982-4962-B7A5-65D376A67616}|Demo3\\Demo3.csproj|solutionrelative:demo3\\complex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58B41214-2BA0-42A7-8075-5262181D87C0}|Demo1\\Demo1.csproj|e:\\iti\\c#\\oop\\lab7\\demo1\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58B41214-2BA0-42A7-8075-5262181D87C0}|Demo1\\Demo1.csproj|solutionrelative:demo1\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58B41214-2BA0-42A7-8075-5262181D87C0}|Demo1\\Demo1.csproj|e:\\iti\\c#\\oop\\lab7\\demo1\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58B41214-2BA0-42A7-8075-5262181D87C0}|Demo1\\Demo1.csproj|solutionrelative:demo1\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58B41214-2BA0-42A7-8075-5262181D87C0}|Demo1\\Demo1.csproj|e:\\iti\\c#\\oop\\lab7\\demo1\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58B41214-2BA0-42A7-8075-5262181D87C0}|Demo1\\Demo1.csproj|solutionrelative:demo1\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{365E3EE8-57F2-48F3-B60E-E1510B97CBDC}|Demo2\\Demo2.csproj|e:\\iti\\c#\\oop\\lab7\\demo2\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{365E3EE8-57F2-48F3-B60E-E1510B97CBDC}|Demo2\\Demo2.csproj|solutionrelative:demo2\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ITI\\C#\\OOP\\Lab7\\Demo3\\Program.cs",
+              "RelativeDocumentMoniker": "Demo3\\Program.cs",
+              "ToolTip": "E:\\ITI\\C#\\OOP\\Lab7\\Demo3\\Program.cs",
+              "RelativeToolTip": "Demo3\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T08:28:32.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Complex.cs",
+              "DocumentMoniker": "E:\\ITI\\C#\\OOP\\Lab7\\Demo3\\Complex.cs",
+              "RelativeDocumentMoniker": "Demo3\\Complex.cs",
+              "ToolTip": "E:\\ITI\\C#\\OOP\\Lab7\\Demo3\\Complex.cs",
+              "RelativeToolTip": "Demo3\\Complex.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T08:09:01.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Shape.cs",
+              "DocumentMoniker": "E:\\ITI\\C#\\OOP\\Lab7\\Demo2\\Shape.cs",
+              "RelativeDocumentMoniker": "Demo2\\Shape.cs",
+              "ToolTip": "E:\\ITI\\C#\\OOP\\Lab7\\Demo2\\Shape.cs",
+              "RelativeToolTip": "Demo2\\Shape.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowBQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T08:05:59.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.cs",
+              "DocumentMoniker": "E:\\ITI\\C#\\OOP\\Lab7\\Demo1\\Student.cs",
+              "RelativeDocumentMoniker": "Demo1\\Student.cs",
+              "ToolTip": "E:\\ITI\\C#\\OOP\\Lab7\\Demo1\\Student.cs",
+              "RelativeToolTip": "Demo1\\Student.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAADwvzQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T08:05:25.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "E:\\ITI\\C#\\OOP\\Lab7\\Demo1\\Employee.cs",
+              "RelativeDocumentMoniker": "Demo1\\Employee.cs",
+              "ToolTip": "E:\\ITI\\C#\\OOP\\Lab7\\Demo1\\Employee.cs",
+              "RelativeToolTip": "Demo1\\Employee.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T08:05:04.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Person.cs",
+              "DocumentMoniker": "E:\\ITI\\C#\\OOP\\Lab7\\Demo1\\Person.cs",
+              "RelativeDocumentMoniker": "Demo1\\Person.cs",
+              "ToolTip": "E:\\ITI\\C#\\OOP\\Lab7\\Demo1\\Person.cs",
+              "RelativeToolTip": "Demo1\\Person.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAgwB8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T08:03:44.637Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

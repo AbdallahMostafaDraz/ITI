@@ -1,0 +1,16 @@
+E:\ITI\C#\OOP\Lab13\Paint\bin\Debug\net8.0-windows\Paint.exe
+E:\ITI\C#\OOP\Lab13\Paint\bin\Debug\net8.0-windows\Paint.deps.json
+E:\ITI\C#\OOP\Lab13\Paint\bin\Debug\net8.0-windows\Paint.runtimeconfig.json
+E:\ITI\C#\OOP\Lab13\Paint\bin\Debug\net8.0-windows\Paint.dll
+E:\ITI\C#\OOP\Lab13\Paint\bin\Debug\net8.0-windows\Paint.pdb
+E:\ITI\C#\OOP\Lab13\Paint\obj\Debug\net8.0-windows\Paint.Form1.resources
+E:\ITI\C#\OOP\Lab13\Paint\obj\Debug\net8.0-windows\Paint.csproj.GenerateResource.cache
+E:\ITI\C#\OOP\Lab13\Paint\obj\Debug\net8.0-windows\Paint.GeneratedMSBuildEditorConfig.editorconfig
+E:\ITI\C#\OOP\Lab13\Paint\obj\Debug\net8.0-windows\Paint.AssemblyInfoInputs.cache
+E:\ITI\C#\OOP\Lab13\Paint\obj\Debug\net8.0-windows\Paint.AssemblyInfo.cs
+E:\ITI\C#\OOP\Lab13\Paint\obj\Debug\net8.0-windows\Paint.csproj.CoreCompileInputs.cache
+E:\ITI\C#\OOP\Lab13\Paint\obj\Debug\net8.0-windows\Paint.dll
+E:\ITI\C#\OOP\Lab13\Paint\obj\Debug\net8.0-windows\refint\Paint.dll
+E:\ITI\C#\OOP\Lab13\Paint\obj\Debug\net8.0-windows\Paint.pdb
+E:\ITI\C#\OOP\Lab13\Paint\obj\Debug\net8.0-windows\Paint.genruntimeconfig.cache
+E:\ITI\C#\OOP\Lab13\Paint\obj\Debug\net8.0-windows\ref\Paint.dll
