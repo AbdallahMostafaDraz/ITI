@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>JS Lab5 - Task1</title>
+    </head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            width: 300px;
+        }
+        .error {
+            color: red;
+            font-size: 12px;
+        }
+    </style>
+    <body>
+        <div class="container">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <p class="error" id="userError"></p>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <p class="error" id="passError"></p>
+                
+                <button type="submit">Login</button>
+            </form>
+        </div>
+
+        
+    <script>
+        document.getElementById("loginForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            
+            let username = document.getElementById("username").value;
+            let password = document.getElementById("password").value;
+            let userError = document.getElementById("userError");
+            let passError = document.getElementById("passError");
+            
+            userError.innerText = "";
+            passError.innerHTML = "";
+            
+            let usernameRegex = /^.{6,}$/;
+            let passwordRegex = /^(?=.*[a-zA-Z]).{6,}$/;
+            
+            let valid = true;
+            
+            if (!usernameRegex.test(username)) {
+                userError.textContent = "Username must be at least 6 characters!";
+                valid = false;
+            }
+            
+            if (!passwordRegex.test(password)) {
+                passError.textContent = "Password must be at least 6 characters and contains at least one letter!";
+                valid = false;
+            }
+            
+            if (valid) {
+                alert("Login successful!");
+            }
+        });
+    </script>
+
+    </body>
+</html>

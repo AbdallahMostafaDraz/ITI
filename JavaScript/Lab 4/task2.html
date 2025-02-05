@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>JS Lab5 - Task2</title>
+    </head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            width: 300px;
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            cursor: pointer;
+            color: green;
+            margin: 5px 0;
+        }
+        .completed {
+            color: red;
+            text-decoration: line-through;
+        }
+    </style>
+    <body>
+        <div class="container">
+            <h2>To-Do List</h2>
+            <input type="text" id="taskInput" placeholder="Enter a task">
+            <button onclick="addTask()">Add Task</button>
+            <ul id="taskList"></ul>
+        </div>
+
+        <script>
+            function addTask() {
+                taskInput = document.getElementById("taskInput");
+                taskText = taskInput.value.trim();
+                if (taskText === "") return;
+                
+                li = document.createElement("li");
+                li.innerText = taskText;
+                li.onclick = function() {
+                    this.classList.toggle("completed");
+                };
+                
+                document.getElementById("taskList").appendChild(li);
+                taskInput.value = "";
+            }
+        </script>
+    </body>
+
+</html>

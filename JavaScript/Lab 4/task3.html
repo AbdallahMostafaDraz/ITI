@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>JS Lab5 - Task 3</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background-color: #f4f4f4;
+            }
+            .container {
+                background: white;
+                padding: 20px;
+                border-radius: 8px;
+                width: 80%;
+                max-width: 600px;
+                text-align: center;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 10px;
+            }
+            th, td {
+                border: 1px solid #ddd;
+                padding: 8px;
+            }
+            th {
+                background-color: #f4f4f4;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h2>Users Data</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody"></tbody>
+            </table>
+        </div>
+
+        <script>
+            function fetchData() {
+                var xhr = new XMLHttpRequest();
+                xhr.open("GET", "https://jsonplaceholder.typicode.com/users", true);
+                xhr.onreadystatechange = function() {
+                    if (xhr.readyState == 4 && xhr.status == 200) {
+                        data = JSON.parse(xhr.responseText);
+                        tableBody = document.getElementById("tableBody");
+                        
+                        data.forEach(user => {
+                            row = document.createElement("tr");
+                            row.innerHTML = 
+                                "<td>" + user.id + "</td>" +
+                                "<td>" + user.name + "</td>" +
+                                "<td>" + user.email + "</td>"
+                            tableBody.appendChild(row);
+                        });
+                    }
+                };
+                xhr.send();
+            }
+            fetchData();
+        </script>
+    </body>
+    
+</html>

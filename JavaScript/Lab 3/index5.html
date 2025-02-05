@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>JS Q5</title>
+    </head>
+    <body>
+        <div id="output"></div>
+        
+        <script>
+        
+        data = ["Abdallah", "Ahmed", "Ali", "Ibrahim", "Nourhan", "Abdelrahman", "Khaled", "Nader"];
+
+        
+        outputDiv = document.getElementById("output");
+
+        data.forEach((item, index) => {
+            const div = document.createElement("div");
+            div.textContent =  item;
+
+            if (index % 2 === 0) {
+                div.style.backgroundColor = "lightblue";  
+                div.style.color = "black";
+                div.style.padding = "5px";
+                div.style.margin = "5px";
+
+            } else {
+                div.style.backgroundColor = "lightgray"; 
+                div.style.color = "black";
+                div.style.padding = "5px";
+                div.style.margin = "5px";
+            }
+
+            outputDiv.appendChild(div);
+        });
+    </script>
+
+    </body>
+</html>

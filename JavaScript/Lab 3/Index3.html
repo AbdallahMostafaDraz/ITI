@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>JS Lab4</title>
+        
+    </head>
+    <body>
+        
+        <!-- 3 Slide Show -->
+        <div class="slideshow">
+            <input type="button" value="Next" />
+            <input type="button" value="Previous" />
+            <input type="button" value="Slide Show " />
+            <input type="button" value="Stop" /><br />
+            <br> <br> <br>
+            <img id="imgshow" width="400px" height="400px" src="a.jpg" />
+          </div>
+          <div id="newelement"></div>
+
+          <script>
+               var inputs = document.querySelectorAll(".slideshow input")
+
+                var counter = 0
+                var arr = ["a.jpg ", "b.jpg", "c.png", "d.png"]
+
+               
+                //next 
+                inputs[0].addEventListener('click', function () {
+
+
+                    if (counter < arr.length - 1) {
+                        counter++
+                        imgshow.src = arr[counter]
+                        console.log(counter)
+                    }
+                    else {
+                        alert("This is the last image!")
+                    }
+                })
+                //prev
+                inputs[1].addEventListener('click', function () {
+
+
+                    if (counter <= arr.length - 1 && counter > 0) {
+                        counter--;
+                        imgshow.src = arr[counter]
+                    }
+                    else
+                    {
+                        alert("This is the first image!")
+                    }
+                })
+                inputs[2].addEventListener('click', function () {
+                    counter = 0;
+                    interval = setInterval(function () {
+                        if (counter < arr.length) {
+                            imgshow.src = arr[counter];
+                            counter++;
+                        } else {
+                            counter = 0;
+                        }
+                    }, 500);
+                });
+                // stop
+                inputs[3].addEventListener('click', function() {
+                    clearInterval(interval);
+                    counter = counter;
+                    alert('Slide Stopped!')
+                })          
+          </script>
+    </body>
+</html>

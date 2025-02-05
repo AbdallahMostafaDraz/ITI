@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>JS Q4</title>
+    </head>
+    <body>
+        <label for="studentSelect">Select Student ID:</label>
+        <select id="studentSelect">
+            <option value="">Select ID</option>
+        </select>
+    
+        <div id="studentDetails">
+            <p id="studentInfo"></p>
+        </div>
+        
+        <script>
+            const students = [
+                { id: 1, name: "Abdallah", age: 24 },
+                { id: 2, name: "Nour", age: 22 },
+                { id: 3, name: "Ali", age: 19 },
+                { id: 4, name: "Ahmed", age: 21 }
+            ];
+    
+            // fill select list
+            const select = document.getElementById("studentSelect");
+            students.forEach(student => {
+                const option = document.createElement("option");
+                option.value = student.id;
+                option.textContent = student.id;
+                select.appendChild(option);
+            });
+            
+            // on change select 
+            select.addEventListener("change", function () {
+                const selectedId = parseInt(this.value);
+                const student = students.find(s => s.id === selectedId);
+                
+                const studentInfo = document.getElementById("studentInfo");
+                if (student) {
+                    studentInfo.innerHTML = 'Name: ' + student.name + '<br> Age: ' + student.age;
+                }
+            });
+        </script>
+    
+    </body>
+
+
+</html>
