@@ -1,0 +1,463 @@
+/* Start Home Page */
+
+/* start main container of page one */
+.page-one {
+    background-color: rgb(247, 245, 245);
+    padding-bottom: 0px;
+    padding-top: 15px;
+    height: 700px;
+}
+/* end main container of page one */
+
+/* Start Navbar */
+.nav-bar {
+    padding: 0px 200px;
+}
+
+.logo-img {
+    width: 50px;
+    height: 50px;
+    padding-right: 5px;
+}
+
+.logo-text {
+    margin: 25% 0%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;    
+}
+
+.list-items li {
+    display: inline-block;
+    padding: 0px 30px;
+    font-family: tahoma;
+    font-size: 15px;
+}
+.list-items {
+    padding-left: 300px;
+}
+.list-items li:hover {
+    text-decoration: solid underline orange 3px;
+    text-underline-offset: 7px;
+}
+
+.search-img {
+    padding-top: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+/* End Navbar */
+
+/* Start First Part Of Content */
+.first-part-of-content {
+    margin: 80px;
+    padding: 0px 125px;
+}
+
+.home-page-right-side {
+    padding-left: 100px;
+} 
+
+.welcome {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.paragraph {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+
+.shopnow-btn, .contactus-btn {
+    display: inline-block;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 12px 30px;
+    margin-top: 15px;
+}
+.shopnow-btn {
+    background-color: rgb(199, 143, 39);
+    margin-right: 10px;
+}
+.contactus-btn {
+    background-color: black;
+}
+
+.home-page-right-side {
+    display: inline-block;
+    margin-top: 30px;
+}
+.dish-img {
+    width: 450px;
+    height: 300px;
+}
+/* End First Part of Content */
+
+
+/* Start Section Two - Our Service */
+
+.our-service-head {
+    margin: 40px 80px 20px;
+    padding: 10px 125px;
+    text-align: center;
+}
+.ourserivce-word {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+}
+.ourserivce-paragraph {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+
+.ourservice-div-table {
+    width: 1100px;
+    height: 350px;
+    margin: 20px auto 30px;
+}
+
+.ourservice-table {
+    margin: auto;
+}
+.ourservice-div-table tr  {
+    display: block;
+    margin: 10px ;
+}
+
+.ourservice-div-table tr td {
+    display: inline-block;
+    border: 1px solid gray;
+    width: 330px;
+    height: 280px;
+    margin: 17.5px 10px;
+    padding-top: 40px ;
+}
+.ourservice-div-table tr td:hover {
+    border-top: 6px solid orange;
+    cursor: pointer;
+}
+
+.orange-img, .grapes-img, .gauva-img {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 20px auto;
+}
+
+.orange-span, .grapes-span, .gauva-span {
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    color: orangered;
+}
+
+.orange-paragraph, .grapes-paragraph, .gauva-paragraph {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+
+.readmore-div a {
+    display: block;
+    width: 100px;
+    background-color: black;
+    color: white;
+    margin: 60px auto 30px;
+    padding: 15px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.readmore-div a:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+/* End Section Two - Our Service */
+
+
+/* Start Sectoin 3 - Frish Fruits */
+.section-three-frish-fruits {
+    margin-top: 40px;
+    height: 1020px;
+}
+
+.frishfruits-head {
+    margin: 100px 80px 0px;
+    padding: 10px 125px;
+    text-align: center;
+}
+
+.frishfruits-word {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+}
+.frishfruits-paragraph {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.frishfruits-div-table { 
+    width: 1100px;
+    height: 900px;
+    margin: 0px auto;
+    padding: 0px 0px;
+}
+
+.frishfruits-table {
+    width: 100%;
+    padding: 10px;
+}
+
+
+.frishfruits-div-table tr  {
+    display: block;
+}
+
+.frishfruits-div-table tr td {
+    display: inline-block;
+    height: 280px;
+    margin: 0px 10px;
+}
+.frishfruits-div-table tr .img-column {
+    margin-left: 100px;
+    width: 250px;
+    padding-left: 20px ;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
+.description {
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.buynow-div a {
+    display: inline-block;
+    background-color: black;
+    margin-top: 30px;
+    color: white;
+    padding: 15px 50px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.buynow-div a:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.frishfruit-img {
+    width: 200px;
+    height: 180px;
+    margin-top: 40px;
+}
+
+/* End Sectoin 3 - Frish Fruits */
+
+/* Start Section 4 */
+.section-four {
+
+    height: 500px;
+    background-image: url("../images/tasty.png");
+    background-size: cover;
+    margin-bottom: 40px ;
+}
+
+.section-four h1 {
+    display: inline-block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120px;
+    color: white;
+    width: 100%;
+    height: 120px;
+    margin-top: 190px;
+}
+
+/* End Section 4 */
+
+/* Start Section 5 */
+.section-five {
+    margin-top: 40px;
+    height: 650px;
+}
+
+.testimonial-head {
+    padding: 10px 125px;
+    text-align: center;
+}
+
+.testimonial-word {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+}
+.testimonial-paragraph {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.sectionfive-content {
+    width: 1200px;
+    margin: auto;
+}
+
+.sectionfive-content img {
+    width: 390px;
+    margin-left: 405px;
+}
+.section-five p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.section-five .clinet-name {
+    font-size: 26px;
+}
+
+/* End Sectoin 5 */
+
+/* Start Section 6 */
+
+.section-six {
+    height: 400px;
+    margin-top: 10px;
+    padding: 50px 200px;
+}
+.section-six h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+}
+form {
+    display: inline-block;
+}
+form .data{
+    display: block;
+    margin: 30px 0px;
+    width: 600px;
+    border: none;
+    border-bottom: 1px solid;
+}
+.submit-btn {
+    border: none;
+    padding: 10px 40px;
+    background-color: rgb(199, 143, 39);
+    color: white;
+    cursor: pointer;
+}
+/* End Section 6 */
+
+/* Start Section 7 */
+.section-seven {
+    margin: 20px 0px;
+}
+
+.section-seven table {
+    display: inline-block;
+    width: 100%;
+    padding: 5px 0px 5px 180px;
+    font-family: Arial, Helvetica, sans-serif;
+    row-gap: 100px;
+}
+.section-seven table tr td {
+    display: inline-block;
+    width: 150px;   
+    margin-right: 100px;
+}
+.section-seven table tr .title{
+    font-size: 24px;
+} 
+
+.section-seven table tr .description{
+    font-size: 20px;
+}
+
+.icons-td {
+ height: 180px;   
+}
+.icons {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.icons img {
+    width: 30px;
+}
+.subscribe-title {
+    font-size: 20px;
+    margin: 5px 0px;
+}
+.subscribe-input {
+    height: 25px;
+    width: 200px;
+    margin-bottom: 20px;
+} 
+.subscribe-btn {
+    padding: 10px 40px;
+    background-color: rgb(199, 143, 39);
+    color: white;
+    margin-top: 10px;
+}
+/* End Section 7 */
+
+/* Start Footer */
+.footer {
+    background-color: rgb(247, 245, 245);
+    text-align: center;
+    padding: 5px;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+/* End Footer */
+
+.sub {
+    padding-left: 40px;
+    padding-top: 60px ;
+}
+
+.sub-page {
+    background-color: white;
+}
+.nav-bar {
+    background-color: rgb(247, 245, 245);
+
+}
+
+.section-six-content {
+    display: inline-block;
+    border: 1px solid;
+}
+
+.right-side {
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 425px;
+}
+
+.left-side {
+    margin-left: 220px;
+    display: inline-block;
+}
+.right-side img {
+    width: 250px;
+    height: 300px;
+}
+
+.change-btn:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
