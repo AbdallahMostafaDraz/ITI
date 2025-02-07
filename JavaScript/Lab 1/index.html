@@ -1,137 +1,15 @@
 <html>
     <head>
-        <title>JS Lab 2</title>
-        <script>
-            // First Way To Delete Duplicate Values
-            
-            var arr = [3, 1, 2, 4, 3, 5, 1];
-            for(var i = 0; i < arr.length; i++)
-            {
-                for(var j = i + 1; j < arr.length; j++)
-                {
-                    if (arr[i] === arr[j])
-                        delete arr[j];    
-                }
-            }
-            console.log(arr);
-
-            // Second Way to Delete Duplicate Values
-            var arr = [3, 1, 2, 4, 3, 5, 1];
-            var newArr = [];
-            for(var i = 0; i < arr.length; i++)
-            {
-              if (newArr.indexOf(arr[i]) === -1)
-                newArr.push(arr[i]);
-            }
-            console.log(newArr);
-            
-            // sort
-            var arr = [10, 3, 5, 100, 70, 30, 1, 50, 66];
-            arr.sort(function(a, b) {
-                return a - b;
-            });
-            console.log(arr);
-            
-            
-            // Filter > 50
-            // 1) built in 
-            var arr = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
-            var newArr = arr.filter(function(element) { return element > 50});
-            console.log(newArr);
-
-            // 2) userdefine
-            function FilterArray(arr)
-            {
-                var newArr = [];
-                for(var i = 0; i < arr.length; i++)
-                    if (arr[i] > 50)
-                        newArr.push(arr[i]);
-                
-                return newArr;
-            }
-            var result = FilterArray(arr);
-            console.log(result);
-            
-            
-            // Display Max And Min
-            var arr = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
-            function DisplayMinAndMax(arr)
-            {
-                var max = arr[0]
-                var min = arr[0];
-                for(var i = 0; i < arr.length; i++)
-                {
-                    if (arr[i] > max)
-                    {
-                        max = arr[i];
-                    }
-                    if (arr[i] < min)
-                    {
-                        min = arr[i];
-                    }
-                }
-                console.log("Min: " + min);
-                console.log("Max: " + max);
-            }
-            DisplayMinAndMax(arr);
-            
-            // sum Using eval
-            function sumAll(arr)
-            {
-                var sum = eval(arr.join("+"));
-                var product = eval(arr.join("*"));
-                return {sum, product};
-            }
-            console.log(sumAll([1, 2, 3, 4, 5]));
-            
-            function sumAll()
-            {
-                var arr = []
-                for(var i = 0; i < arguments.length; i++)
-                    arr.push(arguments[i]);
-
-                var sum = eval(arr.join("+"));
-                var product = eval(arr.join("*"));
-                return {sum, product};
-            }
-            console.log(sumAll(1, 2, 3, 4));
-            
-            
-            // part 2
-            // 1) 
-            function captalizeLetters(userInput)
-            {
-                if (typeof  userInput !== "string")
-                    return "Please Enter String";
-                if (userInput.trim() === "")
-                    return "Empty string";
-
-                var splitInput = userInput.split(' ');
-                    
-                for(var i = 0; i < splitInput.length; i++)
-                {
-                    splitInput[i] = splitInput[i][0].toUpperCase() + splitInput[i].slice(1);
-                }
-                return splitInput;
-            }
-            var userInput = prompt("Enter a Text: ")
-            console.log(captalizeLetters(userInput));
-
-            // 2
-            function getLongestWord(text)
-            {
-                var splitText = text.split(' ');
-                var longestWord = splitText[0];
-                for(var i = 0; i < splitText.length; i++)
-                {
-                    if (splitText[i].length > longestWord.length)
-                        longestWord = splitText[i];        
-                }
-                return longestWord;
-            }
-
-            console.log(getLongestWord("Web development tutorial"));
-
-        </script>
+        <title>JS Lab1</title>
     </head>
+    <body>
+        <script>
+            document.writeln("<h1>Heading<h1/><hr/>")
+            for(var i = 1; i < 7; i++)
+            {
+                var message = prompt("Enter a meesage " + i + ": ");
+                document.writeln("<h" + i + ">" + message + "<h" + i + "/>" )
+            }    
+        </script>    
+    </body>
 </html>

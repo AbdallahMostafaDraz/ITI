@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>JS Lab2</title>
+    </head>
+    <body>
+           <script>
+            var sum = 0;
+            do {
+                
+                var input = parseInt(prompt("Enter a number"));
+                if (!isNaN(input))
+                    sum += input;
+            }while(input != 0 && sum < 100)
+            document.writeln("<h1>Sum = " + sum + "</h1>")
+           </script>
+    </body>
+</html>

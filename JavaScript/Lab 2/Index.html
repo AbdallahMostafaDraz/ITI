@@ -1,103 +1,137 @@
 <html>
     <head>
-        <title>JS Lab 3</title>
+        <title>JS Lab 2</title>
         <script>
-                // 1. open new window (welcome to js)
-                /*
-                var ref = open("WelcomeWindow.html", "child", "width=300,height=400");
-
-                var counter = 0;
-                 setInterval(function () {
-                        var message = "Welcome To JS";
-                        ref.document.write(message[counter++])
-                        if (counter === message.length )
-                            ref.close();
-                  }, 200)
-*/
-             // 2
-
-/*             var Student = function(_fname, _age, _grade) {
-                    this.fname = _fname;
-                    this.age = _age;
-                    this.grade = _grade;
-
-                    this.print = function () { 
-                        document.writeln(this.fname + " : " + this.age + " : " + this.grade + "<br/>"); 
-                    };
-                };
-
-                var students = [
-                    new Student('ali', 22, 100),
-                    new Student('nora', 20, 90),
-                    new Student('nada', 25, 75),
-                    new Student('heba', 19, 50),
-                    new Student('bassem', 21, 40)
-                ];
-
-                students.forEach(function (elm) { 
-                    elm.print(); 
-                });
-
-                var stusGreaterThan80 = students.filter(function(stu) {
-                    return stu.grade > 80;
-                })
-                console.log(stusGreaterThan80)
-                document.writeln("<h3><font color='red'> Students Have Grade More Than 80</font></h3>")
-
-                stusGreaterThan80.forEach(function (elm) { 
-                    elm.print(); 
-                });
+            // First Way To Delete Duplicate Values
             
-                var orderedStus = students.sort(function(a, b) {
-                    return a.grade - b.grade
-                })
-                document.writeln("<h3><font color='red'> Students Ordered By Grade</font></h3>")
+            var arr = [3, 1, 2, 4, 3, 5, 1];
+            for(var i = 0; i < arr.length; i++)
+            {
+                for(var j = i + 1; j < arr.length; j++)
+                {
+                    if (arr[i] === arr[j])
+                        delete arr[j];    
+                }
+            }
+            console.log(arr);
 
+            // Second Way to Delete Duplicate Values
+            var arr = [3, 1, 2, 4, 3, 5, 1];
+            var newArr = [];
+            for(var i = 0; i < arr.length; i++)
+            {
+              if (newArr.indexOf(arr[i]) === -1)
+                newArr.push(arr[i]);
+            }
+            console.log(newArr);
+            
+            // sort
+            var arr = [10, 3, 5, 100, 70, 30, 1, 50, 66];
+            arr.sort(function(a, b) {
+                return a - b;
+            });
+            console.log(arr);
+            
+            
+            // Filter > 50
+            // 1) built in 
+            var arr = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+            var newArr = arr.filter(function(element) { return element > 50});
+            console.log(newArr);
+
+            // 2) userdefine
+            function FilterArray(arr)
+            {
+                var newArr = [];
+                for(var i = 0; i < arr.length; i++)
+                    if (arr[i] > 50)
+                        newArr.push(arr[i]);
                 
-                orderedStus.forEach(function (elm) { 
-                    elm.print(); 
-                });
+                return newArr;
+            }
+            var result = FilterArray(arr);
+            console.log(result);
+            
+            
+            // Display Max And Min
+            var arr = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+            function DisplayMinAndMax(arr)
+            {
+                var max = arr[0]
+                var min = arr[0];
+                for(var i = 0; i < arr.length; i++)
+                {
+                    if (arr[i] > max)
+                    {
+                        max = arr[i];
+                    }
+                    if (arr[i] < min)
+                    {
+                        min = arr[i];
+                    }
+                }
+                console.log("Min: " + min);
+                console.log("Max: " + max);
+            }
+            DisplayMinAndMax(arr);
+            
+            // sum Using eval
+            function sumAll(arr)
+            {
+                var sum = eval(arr.join("+"));
+                var product = eval(arr.join("*"));
+                return {sum, product};
+            }
+            console.log(sumAll([1, 2, 3, 4, 5]));
+            
+            function sumAll()
+            {
+                var arr = []
+                for(var i = 0; i < arguments.length; i++)
+                    arr.push(arguments[i]);
 
-*/
-                // 3) counter
-                var counter = 1;
-                setInterval(function() {
-                    document.write("<br/><b style='padding: 2px; margin: 2px; border: 3px solid red; ' >"  + counter++  + "</b> <br/>")
-                }, 1000)    
-  
-                // 4. Form
-               
-    
+                var sum = eval(arr.join("+"));
+                var product = eval(arr.join("*"));
+                return {sum, product};
+            }
+            console.log(sumAll(1, 2, 3, 4));
+            
+            
+            // part 2
+            // 1) 
+            function captalizeLetters(userInput)
+            {
+                if (typeof  userInput !== "string")
+                    return "Please Enter String";
+                if (userInput.trim() === "")
+                    return "Empty string";
+
+                var splitInput = userInput.split(' ');
+                    
+                for(var i = 0; i < splitInput.length; i++)
+                {
+                    splitInput[i] = splitInput[i][0].toUpperCase() + splitInput[i].slice(1);
+                }
+                return splitInput;
+            }
+            var userInput = prompt("Enter a Text: ")
+            console.log(captalizeLetters(userInput));
+
+            // 2
+            function getLongestWord(text)
+            {
+                var splitText = text.split(' ');
+                var longestWord = splitText[0];
+                for(var i = 0; i < splitText.length; i++)
+                {
+                    if (splitText[i].length > longestWord.length)
+                        longestWord = splitText[i];        
+                }
+                return longestWord;
+            }
+
+            console.log(getLongestWord("Web development tutorial"));
+
         </script>
     </head>
-    <body>
-<!--         
-        <form id="loginForm">
-            <input type="text" name="usr" placeholder="Username" required /><br /><br />
-            <input type="password" name="pass" placeholder="Password" required /><br /><br />
-            <input type="submit" value="Login" /><br />
-        </form>
-     -->
-    <!-- <script>
-     document.getElementById('loginForm').addEventListener('submit', function(event) {
-
-                
-                // Get input values
-                var username = location.search.split("&")[0].slice(1).split("=")[1];
-                var password = location.search.split("&")[1].slice(1).split("=")[1];
-
-                // Check credentials
-                var ref = open("login.html", "child", "width=300,height=400");
-                  
-                if (username === "ali" && password === "123") {
-                    ref.document.write("<h1 style='color:green'> Welcome Ali </h1>");
-                } else {
-                    ref.document.write("<h1 style='color:red'> Error! Invalid User name or password </h1>");
-                }
-
-            });
-    
-    </script>
-    -->
-     </body> 
 </html>

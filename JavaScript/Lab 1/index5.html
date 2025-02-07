@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>JS Lab2</title>
+    </head>
+    <body>
+           <script>
+                var arr = [10.2, 20, 34, 33.12345] 
+                var longestLength = arr[0].toString().length;
+                for (var i = 0; i < arr.length; i++)
+                {
+                    if (arr[i].toString().length > longestLength)
+                        longestLength = arr[i].toString().length;
+                }
+
+                for (var i = 0; i < arr.length; i++)
+                {
+                        document.writeln("<pre>" + arr[i].toPrecision(longestLength-1) + "</pre>");
+                }
+
+           </script>
+    </body>
+</html>

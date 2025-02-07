@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>JS Lab2</title>
+    </head>
+    <body>
+           <script>
+                var arr = [];
+                var sum = 0, multilpy = 1, division = 1;
+                for(var i = 0; i < 3; i++)
+                {
+                    arr[i] = parseInt(prompt("Enter Number[" + (i+1) +"]: "))
+                    sum += arr[i];
+                    multilpy *= arr[i];
+                    
+                    division = i == 0 ? arr[i] : division / arr[i];
+                   
+                }
+                document.write("Sum of 3 values " + arr[0] + "+" + arr[1] + "+" + arr[2] + " = " + sum + "<br/>")
+                document.write("Multiplication of 3 values " + arr[0] + "*" + arr[1] + "*" + arr[2] + " = " + multilpy + "<br/>")
+                document.write("Division of 3 values " + arr[0] + "/" + arr[1] + "/" + arr[2] + " = " + division.toPrecision(5) + "<br/>")
+
+           </script>
+    </body>
+</html>
