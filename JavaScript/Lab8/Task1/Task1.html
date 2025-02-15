@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Selector</title>
+    <style>
+        .container {
+            max-width: 650px;
+            margin: 30px auto;
+            padding: 25px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .dropdown-container {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 25px;
+        }
+
+        .user-dropdown {
+            padding: 10px;
+            font-size: 16px;
+            min-width: 220px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .action-button {
+            padding: 10px 18px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background 0.3s ease;
+        }
+
+        .action-button:hover {
+            background-color: #0056b3;
+        }
+
+        .action-button:disabled {
+            background-color: #aaa;
+            cursor: not-allowed;
+        }
+
+        .info-box {
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 5px;
+            background-color: #fff;
+            display: none;
+        }
+
+        .info-box.visible {
+            display: block;
+        }
+
+        .info-row {
+            margin-bottom: 12px;
+        }
+
+        .info-label {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .loading-message {
+            display: none;
+            color: #777;
+            font-style: italic;
+        }
+
+        .loading-message.visible {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="dropdown-container">
+            <select id="userDropdown" class="user-dropdown" disabled>
+                <option value="">Select a user</option>
+            </select>
+            <button id="viewDetailsBtn" class="action-button" disabled>Show Details</button>
+        </div>
+        
+        <div id="loadingMessage" class="loading-message">Loading users...</div>
+        
+        <div id="userInfoBox" class="info-box">
+            <div class="info-row">
+                <span class="info-label">Name:</span>
+                <span id="userName"></span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">Email:</span>
+                <span id="userEmail"></span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">Phone:</span>
+                <span id="userPhone"></span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">Company:</span>
+                <span id="userCompany"></span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">Website:</span>
+                <span id="userWebsite"></span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">Address:</span>
+                <span id="userAddress"></span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const userDropdown = document.getElementById('userDropdown');
+        const viewDetailsBtn = document.getElementById('viewDetailsBtn');
+        const userInfoBox = document.getElementById('userInfoBox');
+        const loadingMessage = document.getElementById('loadingMessage');
+
+        let users = [];
+
+        loadingMessage.classList.add('visible');
+
+        fetch('https://jsonplaceholder.typicode.com/users')
+            .then(response => response.json())
+            .then(data => {
+                users = data;
+                
+                users.forEach(user => {
+                    const option = document.createElement('option');
+                    option.value = user.id;
+                    option.textContent = user.name;
+                    userDropdown.appendChild(option);
+                });
+
+                userDropdown.disabled = false;
+                loadingMessage.classList.remove('visible');
+            })
+            .catch(error => {
+                console.error('Error fetching users:', error);
+                loadingMessage.textContent = 'Error loading users. Please try again.';
+            });
+
+        userDropdown.addEventListener('change', (e) => {
+            const selectedUserId = e.target.value;
+            viewDetailsBtn.disabled = !selectedUserId;
+            userInfoBox.classList.remove('visible');
+        });
+
+        viewDetailsBtn.addEventListener('click', () => {
+            const selectedUser = users.find(user => user.id === parseInt(userDropdown.value));
+            
+            if (selectedUser) {
+                document.getElementById('userName').textContent = selectedUser.name;
+                document.getElementById('userEmail').textContent = selectedUser.email;
+                document.getElementById('userPhone').textContent = selectedUser.phone;
+                document.getElementById('userCompany').textContent = selectedUser.company.name;
+                document.getElementById('userWebsite').textContent = selectedUser.website;
+                document.getElementById('userAddress').textContent = `${selectedUser.address.street}, ${selectedUser.address.suite}, ${selectedUser.address.city}, ${selectedUser.address.zipcode}`;
+
+                userInfoBox.classList.add('visible');
+            }
+        });
+    </script>
+</body>
+</html>
