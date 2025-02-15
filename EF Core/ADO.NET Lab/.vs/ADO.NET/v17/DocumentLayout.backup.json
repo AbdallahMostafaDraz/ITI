@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ITI\\ITI\\EF Core\\ADO.NET\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E8FD25AA-9641-4007-989A-9DC88150D89D}|ConsoleApp\\ConsoleApp.csproj|e:\\iti\\iti\\ef core\\ado.net\\consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8FD25AA-9641-4007-989A-9DC88150D89D}|ConsoleApp\\ConsoleApp.csproj|solutionrelative:consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8FD25AA-9641-4007-989A-9DC88150D89D}|ConsoleApp\\ConsoleApp.csproj|e:\\iti\\iti\\ef core\\ado.net\\consoleapp\\wallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8FD25AA-9641-4007-989A-9DC88150D89D}|ConsoleApp\\ConsoleApp.csproj|solutionrelative:consoleapp\\wallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A952B0A-A882-4769-8773-D0D8BC351F4B}|DesktopApp\\DesktopApp.csproj|E:\\ITI\\ITI\\EF Core\\ADO.NET\\desktopapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0A952B0A-A882-4769-8773-D0D8BC351F4B}|DesktopApp\\DesktopApp.csproj|solutionrelative:desktopapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ITI\\ITI\\EF Core\\ADO.NET\\ConsoleApp\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp\\Program.cs",
+              "ToolTip": "E:\\ITI\\ITI\\EF Core\\ADO.NET\\ConsoleApp\\Program.cs",
+              "RelativeToolTip": "ConsoleApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T18:42:33.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Wallet.cs",
+              "DocumentMoniker": "E:\\ITI\\ITI\\EF Core\\ADO.NET\\ConsoleApp\\Wallet.cs",
+              "RelativeDocumentMoniker": "ConsoleApp\\Wallet.cs",
+              "ToolTip": "E:\\ITI\\ITI\\EF Core\\ADO.NET\\ConsoleApp\\Wallet.cs",
+              "RelativeToolTip": "ConsoleApp\\Wallet.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAcwBIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T18:42:32.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "E:\\ITI\\ITI\\EF Core\\ADO.NET\\DesktopApp\\Form1.cs",
+              "RelativeDocumentMoniker": "DesktopApp\\Form1.cs",
+              "ToolTip": "E:\\ITI\\ITI\\EF Core\\ADO.NET\\DesktopApp\\Form1.cs [Design]*",
+              "RelativeToolTip": "DesktopApp\\Form1.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T16:29:50.697Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
