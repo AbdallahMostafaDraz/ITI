@@ -1,0 +1,18 @@
+﻿<link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap-grid.min.css" />
+
+@model Department
+<h1>Add New Department</h1>
+<form asp-action="Create" method="post" class="form form-control">
+  
+    <label asp-for="Name" class="form-label"></label>
+    <input asp-for="Name" class="form-control"/>
+    <label asp-for="Capacity" class="form-label"></label>
+    <input asp-for="Capacity" class="form-control" />
+    <br /><br />
+    <input type="submit" value="Add New Student" class="btn btn-primary" />
+    <a asp-action="Index" class="btn btn-danger">Back</a>
+</form>
+
+
+<br />
+
