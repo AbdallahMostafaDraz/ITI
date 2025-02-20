@@ -1,0 +1,43 @@
+﻿@model Student
+@{
+    SelectList deptsList = new SelectList(ViewBag.AllDepartments, "Id", "Name");
+}
+
+<h1>Add New Student</h1>
+<form asp-action="Create" method="post" asp-controller="Student">
+
+    <label asp-for="Name" class="form-label"></label>
+    <input asp-for="Name" class="form-control" />
+    <span asp-validation-for="Name" class="text-danger"></span>
+    <br />
+    <label asp-for="Grade" class="form-label"></label>
+    <input asp-for="Grade" class="form-control" />
+    <span asp-validation-for="Grade" class="text-danger"></span>
+    <br />
+    <label asp-for="Email" class="form-label"></label>
+    <input asp-for="Email" class="form-control" />
+    <span asp-validation-for="Email" class="text-danger"></span>
+    <br />
+    <label asp-for="Password" class="form-label"></label>
+    <input asp-for="Password" class="form-control" />
+    <span asp-validation-for="Password" class="text-danger"></span>
+    <br />
+    <label asp-for="ConfirmPassword" class="form-label"></label>
+    <input asp-for="ConfirmPassword" class="form-control" />
+    <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+    <br />
+
+    <label asp-for="Department" class="form-label"></label>
+    <select asp-for="DeptId" asp-items="deptsList" class="form-control">
+        <option value="0">-- Select Department --</option>
+    </select>
+    <span asp-validation-for="DeptId"></span>
+
+    <br /><br />
+    <input type="submit" value="Add New Student" class="btn btn-primary" />
+    <a asp-action="Index" class="btn btn-danger">Back</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
