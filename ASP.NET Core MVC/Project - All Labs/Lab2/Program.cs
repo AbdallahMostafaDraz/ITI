@@ -1,3 +1,9 @@
+using Lab2.Data;
+using Lab2.Models.Filters;
+using Lab2.Repositries.Implementions;
+using Lab2.Repositries.Interfaces;
+using Microsoft.Extensions.Options;
+
 namespace Lab2
 {
     public class Program
@@ -10,9 +16,14 @@ namespace Lab2
             builder.Services.AddControllersWithViews();
             builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 
+            builder.Services.AddDbContext<AppDBContext>();
+
+            builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+            
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
+            //Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Home/Error");
@@ -27,9 +38,31 @@ namespace Lab2
 
             app.UseAuthorization();
 
+
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
+
+            //====================================================================
+            // my middlewares
+            //app.Use(async (context, next) =>
+            //{
+            //    await context.Response.WriteAsync("Middle 1 - Part 1\n");
+            //    await next.Invoke();
+            //    await context.Response.WriteAsync("Middel 1 - Part 2\n");
+            //}
+            //);
+
+            // app.Run(async (context) => await context.Response.WriteAsync("Run Middle\n"));
+
+            //app.Use(async (context, next) =>
+            //{
+            //    await context.Response.WriteAsync("Middle 2 - Part1\n");
+            //    await next.Invoke();
+            //    await context.Response.WriteAsync("Middle 2 - Part2\n");
+            //});
+            // ====================================================================
+
 
             app.Run();
         }

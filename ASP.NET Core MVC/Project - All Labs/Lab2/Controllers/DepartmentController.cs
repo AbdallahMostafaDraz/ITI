@@ -1,15 +1,21 @@
 ﻿using Lab2.Data;
 using Lab2.Models;
+using Lab2.Repositries.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Lab2.Controllers
 {
     public class DepartmentController : Controller
     {
-        AppDBContext context = new AppDBContext();
+        IUnitOfWork unitOfWork; 
+        public DepartmentController(IUnitOfWork unitOfWork)
+        {
+            this.unitOfWork = unitOfWork;
+        }
+
         public IActionResult Index()
         {
-            var allDepartments = context.Departments.ToList();
+            var allDepartments = unitOfWork.Department.GetAll().ToList();
             return View(allDepartments);
         }
 
@@ -24,8 +30,8 @@ namespace Lab2.Controllers
         {
             if (ModelState.IsValid)
             {
-                context.Departments.Add(department);
-                context.SaveChanges();
+                unitOfWork.Department.Add(department);
+                unitOfWork.Complete();
                 return RedirectToAction("Index");
             }
             return View(department);
@@ -34,7 +40,7 @@ namespace Lab2.Controllers
         [HttpGet]
         public IActionResult Details(int id)
         {
-            var department = context.Departments.FirstOrDefault(x => x.Id == id);
+            var department = unitOfWork.Department.GetOne(e => e.Id == id);
             if (department == null)
                 return NotFound("There No Departments!");
             return View(department);            
@@ -42,7 +48,7 @@ namespace Lab2.Controllers
         [HttpGet]
         public IActionResult Edit(int id)
         {
-            var department = context.Departments.FirstOrDefault(e => e.Id == id);
+            var department = unitOfWork.Department.GetOne(e => e.Id == id);
             if (department == null)
                 return NotFound("There No Departments!");
             return View(department);
@@ -53,8 +59,8 @@ namespace Lab2.Controllers
         {
             if (ModelState.IsValid)
             {
-                context.Departments.Update(department);
-                context.SaveChanges();
+                unitOfWork.Department.Edit(department);
+                unitOfWork.Complete();
                 return RedirectToAction("Index");
             }
             return View(department);
@@ -63,12 +69,12 @@ namespace Lab2.Controllers
         [HttpGet]
         public IActionResult Delete(int id)
         {
-            var department = context.Departments.FirstOrDefault(e => e.Id == id);
+            var department = unitOfWork.Department.GetOne(e => e.Id == id);
             if (department == null)
                 return NotFound("There No Departments!");
             
-            context.Departments.Remove(department);
-            context.SaveChanges(true);
+            unitOfWork.Department.Remove(department);
+            unitOfWork.Complete();
             return RedirectToAction("Index");
         }
     }

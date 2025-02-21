@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\ITI\\MVC\\Lab2\\Lab2\\Lab2.csproj": {}
+    "E:\\ITI\\ITI\\ASP.NET Core MVC\\Project - All Labs\\Lab2\\Lab2.csproj": {}
   },
   "projects": {
-    "E:\\ITI\\MVC\\Lab2\\Lab2\\Lab2.csproj": {
+    "E:\\ITI\\ITI\\ASP.NET Core MVC\\Project - All Labs\\Lab2\\Lab2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ITI\\MVC\\Lab2\\Lab2\\Lab2.csproj",
+        "projectUniqueName": "E:\\ITI\\ITI\\ASP.NET Core MVC\\Project - All Labs\\Lab2\\Lab2.csproj",
         "projectName": "Lab2",
-        "projectPath": "E:\\ITI\\MVC\\Lab2\\Lab2\\Lab2.csproj",
+        "projectPath": "E:\\ITI\\ITI\\ASP.NET Core MVC\\Project - All Labs\\Lab2\\Lab2.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\ITI\\MVC\\Lab2\\Lab2\\obj\\",
+        "outputPath": "E:\\ITI\\ITI\\ASP.NET Core MVC\\Project - All Labs\\Lab2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -14,7 +14,7 @@ namespace Lab2.Models
         public int Grade { get; set; }
         [Required]
         [DataType(DataType.EmailAddress)]
-        [Remote(action: "CheckEmailExist", controller: "Student", AdditionalFields = "Id", ErrorMessage = "This Email Is Already Exist!")]
+        [Remote(action: "CheckEmailExist", controller: "Student", ErrorMessage = "This Email Is Already Exist!")]
         public string Email { get; set; }
         
         [Required]

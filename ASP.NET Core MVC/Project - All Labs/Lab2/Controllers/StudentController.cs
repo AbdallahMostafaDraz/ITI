@@ -1,5 +1,6 @@
 ﻿using Lab2.Data;
 using Lab2.Models;
+using Lab2.Repositries.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -7,10 +8,15 @@ namespace Lab2.Controllers
 {
     public class StudentController : Controller
     {
-        AppDBContext context = new AppDBContext();
+        IUnitOfWork unitOfWork;
+        public StudentController(IUnitOfWork unitOfWork)
+        {
+            this.unitOfWork = unitOfWork;
+        }
+
         public IActionResult Index()
         {
-            var allStuents = context.Students.Include(e => e.Department).ToList();
+            var allStuents = unitOfWork.Student.GetAll(null, new[] { "Department" }).ToList();
             return View(allStuents);
         }
 
@@ -19,7 +25,7 @@ namespace Lab2.Controllers
         public IActionResult Create()
         {
             
-            ViewBag.AllDepartments = context.Departments.ToList();
+            ViewBag.AllDepartments = unitOfWork.Department.GetAll().ToList();
             return View();
         }
 
@@ -32,19 +38,21 @@ namespace Lab2.Controllers
                     ModelState.AddModelError("DeptId", "Please Select a Department!");
                 else
                 {
-                    context.Students.Add(student);
-                    context.SaveChanges();
+                    unitOfWork.Student.Add(student);
+                    unitOfWork.Complete();
                     return RedirectToAction("Index");
                 }
             }
-            ViewBag.AllDepartments = context.Departments.ToList();
+            ViewBag.AllDepartments = unitOfWork.Department.GetAll().ToList();
             return View(student);
         }
 
         [HttpGet]
         public IActionResult Details(int id)
         {
-            var student = context.Students.Include(e => e.Department).FirstOrDefault(x => x.Id == id);
+
+            var student = unitOfWork.Student.GetOne(e => e.Id == id, new[] { "Derpartmnet" });
+  
             if (student == null)
                 return NotFound("There No Students!");
             return View(student);
@@ -52,11 +60,11 @@ namespace Lab2.Controllers
         [HttpGet]
         public IActionResult Edit(int id)
         {
-            var student = context.Students.FirstOrDefault(e => e.Id == id);
+            var student = unitOfWork.Student.GetOne(e => e.Id == id);
             if (student == null)
                 return NotFound("There No Students!");
             TempData["id"] = student.Id;
-            ViewBag.AllDepartments = context.Departments.ToList();
+            ViewBag.AllDepartments = unitOfWork.Department.GetAll().ToList();
             return View(student);
         }
         [HttpPost]
@@ -66,29 +74,34 @@ namespace Lab2.Controllers
             {
                 if (student.DeptId == 0)
                     ModelState.AddModelError("DeptId", "Please Select a Department!");
-                context.Students.Update(student);
-                context.SaveChanges();
+                unitOfWork.Student.Edit(student);
+                unitOfWork.Complete();
                  return RedirectToAction("Index");
             }
-            ViewBag.AllDepartments = context.Departments.ToList();
+            ViewBag.AllDepartments = unitOfWork.Department.GetAll().ToList();
             return View(student);
         }
 
         public IActionResult CheckEmailExist(string Email)
         {
-            var emailExist = context.Students.Any(e => e.Email == Email && e.Id != int.Parse(TempData.Peek("id")!.ToString()!));
-            return Json(!emailExist);
+            if (TempData.ContainsKey("id"))
+            {
+                int.TryParse(TempData.Peek("id")!.ToString(), out int id);
+                return Json(!unitOfWork.Student.CheckEmail(e => e.Email == Email && e.Id != id));
+            }
+            return Json(!unitOfWork.Student.CheckEmail(e => e.Email == Email));
+            
         }
         
         [HttpGet]
         public IActionResult Delete(int id)
         {
-            var student = context.Students.FirstOrDefault(e => e.Id == id);
+            var student = unitOfWork.Student.GetOne(e => e.Id == id);
             if (student == null)
                 return NotFound("There No Students!");
 
-            context.Students.Remove(student);
-            context.SaveChanges(true); 
+            unitOfWork.Student.Remove(student);
+            unitOfWork.Complete(); 
             return RedirectToAction("Index");
         }
         

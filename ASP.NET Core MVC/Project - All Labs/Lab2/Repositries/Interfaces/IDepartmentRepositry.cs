@@ -1,0 +1,9 @@
+﻿using Lab2.Models;
+
+namespace Lab2.Repositries.Interfaces
+{
+    public interface IDepartmentRepositry : IGenericRepositry<Department>
+    {
+
+    }
+}

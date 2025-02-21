@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Lab2.Models.Filters;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Filters;
 using static System.Net.Mime.MediaTypeNames;
 
 namespace Lab2.Controllers
@@ -26,5 +28,27 @@ namespace Lab2.Controllers
             return Redirect("https://www.google.com");
         }
 
+        [MyExceptionFilter]
+        public IActionResult ActionFilter()
+        {
+            // This Will Throw Exception
+            int x = int.Parse("abc");  
+            return Content(x.ToString());
+        }
+        static bool flag = false;
+        public IActionResult ChangeLayout()
+        {
+            if (!flag)
+            {
+                TempData["Layout"] = "_Layout2";
+                flag = true;
+            }
+            else
+            {
+                TempData["Layout"] = "_Layout";
+                flag = false;
+            }
+            return View("Index");
+        }
     }
 }
