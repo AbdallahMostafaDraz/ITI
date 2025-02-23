@@ -1,11 +1,13 @@
 ﻿using Lab2.Data;
 using Lab2.Models;
 using Lab2.Repositries.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace Lab2.Controllers
 {
+    [Authorize(Roles ="Student")]
     public class StudentController : Controller
     {
         IUnitOfWork unitOfWork;
@@ -24,7 +26,7 @@ namespace Lab2.Controllers
         [HttpGet]
         public IActionResult Create()
         {
-            
+            TempData.Remove("id");
             ViewBag.AllDepartments = unitOfWork.Department.GetAll().ToList();
             return View();
         }
@@ -51,7 +53,7 @@ namespace Lab2.Controllers
         public IActionResult Details(int id)
         {
 
-            var student = unitOfWork.Student.GetOne(e => e.Id == id, new[] { "Derpartmnet" });
+            var student = unitOfWork.Student.GetOne(e => e.Id == id, new[] { "Department" });
   
             if (student == null)
                 return NotFound("There No Students!");
@@ -76,12 +78,12 @@ namespace Lab2.Controllers
                     ModelState.AddModelError("DeptId", "Please Select a Department!");
                 unitOfWork.Student.Edit(student);
                 unitOfWork.Complete();
-                 return RedirectToAction("Index");
+                return RedirectToAction("Index");
             }
             ViewBag.AllDepartments = unitOfWork.Department.GetAll().ToList();
             return View(student);
         }
-
+        
         public IActionResult CheckEmailExist(string Email)
         {
             if (TempData.ContainsKey("id"))
@@ -90,7 +92,6 @@ namespace Lab2.Controllers
                 return Json(!unitOfWork.Student.CheckEmail(e => e.Email == Email && e.Id != id));
             }
             return Json(!unitOfWork.Student.CheckEmail(e => e.Email == Email));
-            
         }
         
         [HttpGet]

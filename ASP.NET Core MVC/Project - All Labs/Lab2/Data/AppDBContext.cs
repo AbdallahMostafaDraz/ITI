@@ -7,6 +7,8 @@ namespace Lab2.Data
     {
         public DbSet<Student> Students { get; set; } 
         public DbSet<Department> Departments { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<Role> Roles { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

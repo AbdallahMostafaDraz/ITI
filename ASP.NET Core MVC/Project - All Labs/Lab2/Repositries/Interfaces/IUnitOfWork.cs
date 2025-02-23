@@ -4,6 +4,8 @@
     {
         IDepartmentRepositry Department {  get; }
         IStudentRepositry Student { get; }
+        IUserRepositry User { get; }
+        IRoleRepositry Role { get; }
         int Complete();
 
     }

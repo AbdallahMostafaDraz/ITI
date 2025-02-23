@@ -15,7 +15,20 @@ namespace Lab2.Repositries.Implementions
             _context = context;
             dbset = _context.Set<T>();
         }
+        
+        public IEnumerable<T> GetAll(Expression<Func<T, bool>>? filter = null, string[]? includeWords = null)
+        {
+            IQueryable<T> query = dbset;
 
+            if (filter != null)
+                query = query.Where(filter);
+
+            if (includeWords != null)
+                foreach (var word in includeWords)
+                    query = query.Include(word);
+
+            return query;
+        }
         public void Add(T item)
         {
             dbset.Add(item);
@@ -26,19 +39,7 @@ namespace Lab2.Repositries.Implementions
             dbset.Update(item);
         }
 
-        public IEnumerable<T> GetAll(Expression<Func<T, bool>>? filter = null, string[]? includeWords = null)
-        {
-            IQueryable<T> query = dbset;
 
-            if (filter != null) 
-                query = query.Where(filter);
-
-            if (includeWords != null)
-                foreach(var word in includeWords)
-                    query = query.Include(word);
-                    
-            return query;
-        }
 
         public T GetOne(Expression<Func<T, bool>>? filter = null, string[]? includeWords = null)
         {

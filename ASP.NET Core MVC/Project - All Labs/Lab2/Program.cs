@@ -2,6 +2,7 @@ using Lab2.Data;
 using Lab2.Models.Filters;
 using Lab2.Repositries.Implementions;
 using Lab2.Repositries.Interfaces;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.Extensions.Options;
 
 namespace Lab2
@@ -20,7 +21,13 @@ namespace Lab2
 
             builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
-            
+            builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+            .AddCookie(options =>
+            {
+                options.LoginPath = "/Account/Register";
+                options.AccessDeniedPath = "/Account/AccessDenied";
+            });
+
             var app = builder.Build();
 
             //Configure the HTTP request pipeline.

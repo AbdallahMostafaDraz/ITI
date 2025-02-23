@@ -1,10 +1,12 @@
 ﻿using Lab2.Data;
 using Lab2.Models;
 using Lab2.Repositries.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Lab2.Controllers
 {
+    [Authorize(Roles = "Instructor")]
     public class DepartmentController : Controller
     {
         IUnitOfWork unitOfWork; 

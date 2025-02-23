@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "E:\\ITI\\ITI\\ASP.NET Core MVC\\Project - All Labs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{06BD4209-A0D2-482E-BA98-660E9EDE0331}|Lab2\\Lab2.csproj|e:\\iti\\iti\\asp.net core mvc\\project - all labs\\lab2\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06BD4209-A0D2-482E-BA98-660E9EDE0331}|Lab2\\Lab2.csproj|solutionrelative:lab2\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06BD4209-A0D2-482E-BA98-660E9EDE0331}|Lab2\\Lab2.csproj|e:\\iti\\iti\\asp.net core mvc\\project - all labs\\lab2\\repositries\\implementions\\studentrepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06BD4209-A0D2-482E-BA98-660E9EDE0331}|Lab2\\Lab2.csproj|solutionrelative:lab2\\repositries\\implementions\\studentrepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06BD4209-A0D2-482E-BA98-660E9EDE0331}|Lab2\\Lab2.csproj|e:\\iti\\iti\\asp.net core mvc\\project - all labs\\lab2\\views\\test\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{06BD4209-A0D2-482E-BA98-660E9EDE0331}|Lab2\\Lab2.csproj|solutionrelative:lab2\\views\\test\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{06BD4209-A0D2-482E-BA98-660E9EDE0331}|Lab2\\Lab2.csproj|e:\\iti\\iti\\asp.net core mvc\\project - all labs\\lab2\\repositries\\implementions\\genericrepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06BD4209-A0D2-482E-BA98-660E9EDE0331}|Lab2\\Lab2.csproj|solutionrelative:lab2\\repositries\\implementions\\genericrepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06BD4209-A0D2-482E-BA98-660E9EDE0331}|Lab2\\Lab2.csproj|e:\\iti\\iti\\asp.net core mvc\\project - all labs\\lab2\\models\\filters\\myexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06BD4209-A0D2-482E-BA98-660E9EDE0331}|Lab2\\Lab2.csproj|solutionrelative:lab2\\models\\filters\\myexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06BD4209-A0D2-482E-BA98-660E9EDE0331}|Lab2\\Lab2.csproj|e:\\iti\\iti\\asp.net core mvc\\project - all labs\\lab2\\repositries\\interfaces\\igenericrepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06BD4209-A0D2-482E-BA98-660E9EDE0331}|Lab2\\Lab2.csproj|solutionrelative:lab2\\repositries\\interfaces\\igenericrepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06BD4209-A0D2-482E-BA98-660E9EDE0331}|Lab2\\Lab2.csproj|e:\\iti\\iti\\asp.net core mvc\\project - all labs\\lab2\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06BD4209-A0D2-482E-BA98-660E9EDE0331}|Lab2\\Lab2.csproj|solutionrelative:lab2\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,49 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\ITI\\ITI\\ASP.NET Core MVC\\Project - All Labs\\Lab2\\Views\\Test\\Index.cshtml",
-              "RelativeDocumentMoniker": "Lab2\\Views\\Test\\Index.cshtml",
-              "ToolTip": "E:\\ITI\\ITI\\ASP.NET Core MVC\\Project - All Labs\\Lab2\\Views\\Test\\Index.cshtml",
-              "RelativeToolTip": "Lab2\\Views\\Test\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-21T18:10:26.517Z",
+              "DocumentIndex": 0,
+              "Title": "StudentRepositry.cs",
+              "DocumentMoniker": "E:\\ITI\\ITI\\ASP.NET Core MVC\\Project - All Labs\\Lab2\\Repositries\\Implementions\\StudentRepositry.cs",
+              "RelativeDocumentMoniker": "Lab2\\Repositries\\Implementions\\StudentRepositry.cs",
+              "ToolTip": "E:\\ITI\\ITI\\ASP.NET Core MVC\\Project - All Labs\\Lab2\\Repositries\\Implementions\\StudentRepositry.cs",
+              "RelativeToolTip": "Lab2\\Repositries\\Implementions\\StudentRepositry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T15:20:25.088Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TestController.cs",
-              "DocumentMoniker": "E:\\ITI\\ITI\\ASP.NET Core MVC\\Project - All Labs\\Lab2\\Controllers\\TestController.cs",
-              "RelativeDocumentMoniker": "Lab2\\Controllers\\TestController.cs",
-              "ToolTip": "E:\\ITI\\ITI\\ASP.NET Core MVC\\Project - All Labs\\Lab2\\Controllers\\TestController.cs",
-              "RelativeToolTip": "Lab2\\Controllers\\TestController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAzwC8AAAAdAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "GenericRepositry.cs",
+              "DocumentMoniker": "E:\\ITI\\ITI\\ASP.NET Core MVC\\Project - All Labs\\Lab2\\Repositries\\Implementions\\GenericRepositry.cs",
+              "RelativeDocumentMoniker": "Lab2\\Repositries\\Implementions\\GenericRepositry.cs",
+              "ToolTip": "E:\\ITI\\ITI\\ASP.NET Core MVC\\Project - All Labs\\Lab2\\Repositries\\Implementions\\GenericRepositry.cs",
+              "RelativeToolTip": "Lab2\\Repositries\\Implementions\\GenericRepositry.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T18:09:10.194Z",
+              "WhenOpened": "2025-02-23T15:19:07.27Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MyExceptionFilter.cs",
-              "DocumentMoniker": "E:\\ITI\\ITI\\ASP.NET Core MVC\\Project - All Labs\\Lab2\\Models\\Filters\\MyExceptionFilter.cs",
-              "RelativeDocumentMoniker": "Lab2\\Models\\Filters\\MyExceptionFilter.cs",
-              "ToolTip": "E:\\ITI\\ITI\\ASP.NET Core MVC\\Project - All Labs\\Lab2\\Models\\Filters\\MyExceptionFilter.cs",
-              "RelativeToolTip": "Lab2\\Models\\Filters\\MyExceptionFilter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
+              "Title": "IGenericRepositry.cs",
+              "DocumentMoniker": "E:\\ITI\\ITI\\ASP.NET Core MVC\\Project - All Labs\\Lab2\\Repositries\\Interfaces\\IGenericRepositry.cs",
+              "RelativeDocumentMoniker": "Lab2\\Repositries\\Interfaces\\IGenericRepositry.cs",
+              "ToolTip": "E:\\ITI\\ITI\\ASP.NET Core MVC\\Project - All Labs\\Lab2\\Repositries\\Interfaces\\IGenericRepositry.cs",
+              "RelativeToolTip": "Lab2\\Repositries\\Interfaces\\IGenericRepositry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T18:06:32.529Z",
+              "WhenOpened": "2025-02-23T15:18:14.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "E:\\ITI\\ITI\\ASP.NET Core MVC\\Project - All Labs\\Lab2\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "Lab2\\Controllers\\DepartmentController.cs",
+              "ToolTip": "E:\\ITI\\ITI\\ASP.NET Core MVC\\Project - All Labs\\Lab2\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "Lab2\\Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T15:16:53.725Z",
               "EditorCaption": ""
             }
           ]
