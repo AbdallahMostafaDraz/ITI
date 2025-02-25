@@ -1,4 +1,5 @@
 using Lab2.Data;
+using Lab2.Middlewares;
 using Lab2.Models.Filters;
 using Lab2.Repositries.Implementions;
 using Lab2.Repositries.Interfaces;
@@ -38,14 +39,22 @@ namespace Lab2
                 app.UseHsts();
             }
 
+
             app.UseHttpsRedirection();
+
+            app.UseMiddleware<RateLimitingMiddleware>();
+
             app.UseStaticFiles();
 
             app.UseRouting();
 
+
             app.UseAuthorization();
 
+            
+            app.UseMiddleware<ProfilingMiddleware>();
 
+            
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");

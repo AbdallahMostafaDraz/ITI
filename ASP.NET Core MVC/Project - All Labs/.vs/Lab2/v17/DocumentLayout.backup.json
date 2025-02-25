@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "E:\\ITI\\ITI\\ASP.NET Core MVC\\Project - All Labs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{06BD4209-A0D2-482E-BA98-660E9EDE0331}|Lab2\\Lab2.csproj|e:\\iti\\iti\\asp.net core mvc\\project - all labs\\lab2\\repositries\\implementions\\studentrepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06BD4209-A0D2-482E-BA98-660E9EDE0331}|Lab2\\Lab2.csproj|solutionrelative:lab2\\repositries\\implementions\\studentrepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06BD4209-A0D2-482E-BA98-660E9EDE0331}|Lab2\\Lab2.csproj|e:\\iti\\iti\\asp.net core mvc\\project - all labs\\lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06BD4209-A0D2-482E-BA98-660E9EDE0331}|Lab2\\Lab2.csproj|solutionrelative:lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06BD4209-A0D2-482E-BA98-660E9EDE0331}|Lab2\\Lab2.csproj|e:\\iti\\iti\\asp.net core mvc\\project - all labs\\lab2\\repositries\\implementions\\genericrepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06BD4209-A0D2-482E-BA98-660E9EDE0331}|Lab2\\Lab2.csproj|solutionrelative:lab2\\repositries\\implementions\\genericrepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06BD4209-A0D2-482E-BA98-660E9EDE0331}|Lab2\\Lab2.csproj|e:\\iti\\iti\\asp.net core mvc\\project - all labs\\lab2\\middlewares\\profilingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06BD4209-A0D2-482E-BA98-660E9EDE0331}|Lab2\\Lab2.csproj|solutionrelative:lab2\\middlewares\\profilingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06BD4209-A0D2-482E-BA98-660E9EDE0331}|Lab2\\Lab2.csproj|e:\\iti\\iti\\asp.net core mvc\\project - all labs\\lab2\\repositries\\interfaces\\igenericrepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06BD4209-A0D2-482E-BA98-660E9EDE0331}|Lab2\\Lab2.csproj|solutionrelative:lab2\\repositries\\interfaces\\igenericrepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06BD4209-A0D2-482E-BA98-660E9EDE0331}|Lab2\\Lab2.csproj|e:\\iti\\iti\\asp.net core mvc\\project - all labs\\lab2\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06BD4209-A0D2-482E-BA98-660E9EDE0331}|Lab2\\Lab2.csproj|solutionrelative:lab2\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06BD4209-A0D2-482E-BA98-660E9EDE0331}|Lab2\\Lab2.csproj|e:\\iti\\iti\\asp.net core mvc\\project - all labs\\lab2\\middlewares\\ratelimitingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06BD4209-A0D2-482E-BA98-660E9EDE0331}|Lab2\\Lab2.csproj|solutionrelative:lab2\\middlewares\\ratelimitingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StudentRepositry.cs",
-              "DocumentMoniker": "E:\\ITI\\ITI\\ASP.NET Core MVC\\Project - All Labs\\Lab2\\Repositries\\Implementions\\StudentRepositry.cs",
-              "RelativeDocumentMoniker": "Lab2\\Repositries\\Implementions\\StudentRepositry.cs",
-              "ToolTip": "E:\\ITI\\ITI\\ASP.NET Core MVC\\Project - All Labs\\Lab2\\Repositries\\Implementions\\StudentRepositry.cs",
-              "RelativeToolTip": "Lab2\\Repositries\\Implementions\\StudentRepositry.cs",
+              "DocumentIndex": 1,
+              "Title": "ProfilingMiddleware.cs",
+              "DocumentMoniker": "E:\\ITI\\ITI\\ASP.NET Core MVC\\Project - All Labs\\Lab2\\Middlewares\\ProfilingMiddleware.cs",
+              "RelativeDocumentMoniker": "Lab2\\Middlewares\\ProfilingMiddleware.cs",
+              "ToolTip": "E:\\ITI\\ITI\\ASP.NET Core MVC\\Project - All Labs\\Lab2\\Middlewares\\ProfilingMiddleware.cs",
+              "RelativeToolTip": "Lab2\\Middlewares\\ProfilingMiddleware.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T15:20:25.088Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GenericRepositry.cs",
-              "DocumentMoniker": "E:\\ITI\\ITI\\ASP.NET Core MVC\\Project - All Labs\\Lab2\\Repositries\\Implementions\\GenericRepositry.cs",
-              "RelativeDocumentMoniker": "Lab2\\Repositries\\Implementions\\GenericRepositry.cs",
-              "ToolTip": "E:\\ITI\\ITI\\ASP.NET Core MVC\\Project - All Labs\\Lab2\\Repositries\\Implementions\\GenericRepositry.cs",
-              "RelativeToolTip": "Lab2\\Repositries\\Implementions\\GenericRepositry.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T15:19:07.27Z",
+              "WhenOpened": "2025-02-23T20:13:57.7Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IGenericRepositry.cs",
-              "DocumentMoniker": "E:\\ITI\\ITI\\ASP.NET Core MVC\\Project - All Labs\\Lab2\\Repositries\\Interfaces\\IGenericRepositry.cs",
-              "RelativeDocumentMoniker": "Lab2\\Repositries\\Interfaces\\IGenericRepositry.cs",
-              "ToolTip": "E:\\ITI\\ITI\\ASP.NET Core MVC\\Project - All Labs\\Lab2\\Repositries\\Interfaces\\IGenericRepositry.cs",
-              "RelativeToolTip": "Lab2\\Repositries\\Interfaces\\IGenericRepositry.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "RateLimitingMiddleware.cs",
+              "DocumentMoniker": "E:\\ITI\\ITI\\ASP.NET Core MVC\\Project - All Labs\\Lab2\\Middlewares\\RateLimitingMiddleware.cs",
+              "RelativeDocumentMoniker": "Lab2\\Middlewares\\RateLimitingMiddleware.cs",
+              "ToolTip": "E:\\ITI\\ITI\\ASP.NET Core MVC\\Project - All Labs\\Lab2\\Middlewares\\RateLimitingMiddleware.cs",
+              "RelativeToolTip": "Lab2\\Middlewares\\RateLimitingMiddleware.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAApwBsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T15:18:14.337Z",
+              "WhenOpened": "2025-02-23T20:13:39.307Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DepartmentController.cs",
-              "DocumentMoniker": "E:\\ITI\\ITI\\ASP.NET Core MVC\\Project - All Labs\\Lab2\\Controllers\\DepartmentController.cs",
-              "RelativeDocumentMoniker": "Lab2\\Controllers\\DepartmentController.cs",
-              "ToolTip": "E:\\ITI\\ITI\\ASP.NET Core MVC\\Project - All Labs\\Lab2\\Controllers\\DepartmentController.cs",
-              "RelativeToolTip": "Lab2\\Controllers\\DepartmentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ITI\\ITI\\ASP.NET Core MVC\\Project - All Labs\\Lab2\\Program.cs",
+              "RelativeDocumentMoniker": "Lab2\\Program.cs",
+              "ToolTip": "E:\\ITI\\ITI\\ASP.NET Core MVC\\Project - All Labs\\Lab2\\Program.cs",
+              "RelativeToolTip": "Lab2\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T15:16:53.725Z",
+              "WhenOpened": "2025-02-23T19:51:50.636Z",
               "EditorCaption": ""
             }
           ]
