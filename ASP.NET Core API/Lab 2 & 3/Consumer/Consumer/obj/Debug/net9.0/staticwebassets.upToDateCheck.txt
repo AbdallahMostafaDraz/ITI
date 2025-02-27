@@ -1,0 +1,14 @@
+E:\ITI\ITI\ASP.NET Core API\Lab2\Consumer\Consumer\wwwroot\jquery\jquery.min.map
+E:\ITI\ITI\ASP.NET Core API\Lab2\Consumer\Consumer\wwwroot\jquery\jquery.slim.min.js
+E:\ITI\ITI\ASP.NET Core API\Lab2\Consumer\Consumer\wwwroot\jquery\jquery.slim.min.map
+E:\ITI\ITI\ASP.NET Core API\Lab2\Consumer\Consumer\wwwroot\jquery\jquery.js
+E:\ITI\ITI\ASP.NET Core API\Lab2\Consumer\Consumer\wwwroot\jquery\jquery.min.js
+E:\ITI\ITI\ASP.NET Core API\Lab2\Consumer\Consumer\wwwroot\Index.html
+E:\ITI\ITI\ASP.NET Core API\Lab2\Consumer\Consumer\wwwroot\jquery\jquery.slim.js
+wwwroot\Index.html
+wwwroot\jquery\jquery.js
+wwwroot\jquery\jquery.min.js
+wwwroot\jquery\jquery.min.map
+wwwroot\jquery\jquery.slim.js
+wwwroot\jquery\jquery.slim.min.js
+wwwroot\jquery\jquery.slim.min.map

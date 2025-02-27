@@ -1,0 +1,13 @@
+E:\ITI\ITI\ASP.NET Core API\Lab2\Lab2.Entities\bin\Debug\net9.0\Lab2.Entities.deps.json
+E:\ITI\ITI\ASP.NET Core API\Lab2\Lab2.Entities\bin\Debug\net9.0\Lab2.Entities.dll
+E:\ITI\ITI\ASP.NET Core API\Lab2\Lab2.Entities\bin\Debug\net9.0\Lab2.Entities.pdb
+E:\ITI\ITI\ASP.NET Core API\Lab2\Lab2.Entities\obj\Debug\net9.0\Lab2.Entities.GeneratedMSBuildEditorConfig.editorconfig
+E:\ITI\ITI\ASP.NET Core API\Lab2\Lab2.Entities\obj\Debug\net9.0\Lab2.Entities.AssemblyInfoInputs.cache
+E:\ITI\ITI\ASP.NET Core API\Lab2\Lab2.Entities\obj\Debug\net9.0\Lab2.Entities.AssemblyInfo.cs
+E:\ITI\ITI\ASP.NET Core API\Lab2\Lab2.Entities\obj\Debug\net9.0\Lab2.Entities.csproj.CoreCompileInputs.cache
+E:\ITI\ITI\ASP.NET Core API\Lab2\Lab2.Entities\obj\Debug\net9.0\Lab2.Entities.sourcelink.json
+E:\ITI\ITI\ASP.NET Core API\Lab2\Lab2.Entities\obj\Debug\net9.0\Lab2.Entities.dll
+E:\ITI\ITI\ASP.NET Core API\Lab2\Lab2.Entities\obj\Debug\net9.0\refint\Lab2.Entities.dll
+E:\ITI\ITI\ASP.NET Core API\Lab2\Lab2.Entities\obj\Debug\net9.0\Lab2.Entities.pdb
+E:\ITI\ITI\ASP.NET Core API\Lab2\Lab2.Entities\obj\Debug\net9.0\ref\Lab2.Entities.dll
+E:\ITI\ITI\ASP.NET Core API\Lab2\Lab2.Entities\obj\Debug\net9.0\Lab2.Entities.csproj.AssemblyReference.cache

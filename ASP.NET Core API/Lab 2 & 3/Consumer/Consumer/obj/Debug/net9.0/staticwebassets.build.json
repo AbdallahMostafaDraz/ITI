@@ -1,0 +1,2402 @@
+{
+  "Version": 1,
+  "Hash": "hslToCL0iRPi+DMzata2wWPg1+BNtOkrLeIhqm9DcCc=",
+  "Source": "Consumer",
+  "BasePath": "_content/Consumer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Consumer\\wwwroot",
+      "Source": "Consumer",
+      "ContentRoot": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\",
+      "BasePath": "_content/Consumer",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\obj\\Debug\\net9.0\\compressed\\2fslix3te2-ttgo8qnofa.gz",
+      "SourceId": "Consumer",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Consumer",
+      "RelativePath": "jquery/jquery.min#[.{fingerprint=ttgo8qnofa}]?.map.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\jquery\\jquery.min.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "sdwt97mj8r",
+      "Integrity": "0HH7P7Mtrs+2sBMSFXD8DJw0oV4iDB5wkeRFpSi113A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\jquery\\jquery.min.map"
+    },
+    {
+      "Identity": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\obj\\Debug\\net9.0\\compressed\\8hbwhcenx7-muycvpuwrr.gz",
+      "SourceId": "Consumer",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Consumer",
+      "RelativePath": "jquery/jquery.slim.min#[.{fingerprint=muycvpuwrr}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\jquery\\jquery.slim.min.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "gm2ug2dj20",
+      "Integrity": "OK9mKWiOoFmOZ+xYop9MRSKE6LHMu/9ZTCPvluUOpcA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\jquery\\jquery.slim.min.js"
+    },
+    {
+      "Identity": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\obj\\Debug\\net9.0\\compressed\\j61uux5abz-87fc7y1x7t.gz",
+      "SourceId": "Consumer",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Consumer",
+      "RelativePath": "jquery/jquery.slim.min#[.{fingerprint=87fc7y1x7t}]?.map.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\jquery\\jquery.slim.min.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "uiwq7himce",
+      "Integrity": "2u2XFgZyC96dP/elrO5ny/maD/llVl8JsX3pBm2SWT0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\jquery\\jquery.slim.min.map"
+    },
+    {
+      "Identity": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\obj\\Debug\\net9.0\\compressed\\nu6n2d0ai6-0i3buxo5is.gz",
+      "SourceId": "Consumer",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Consumer",
+      "RelativePath": "jquery/jquery#[.{fingerprint=0i3buxo5is}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\jquery\\jquery.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "v75tr20pas",
+      "Integrity": "q0KM+9yOLRYeTH/iGBE/HUYO08aXn2DmZ+yyIU6/kho=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\jquery\\jquery.js"
+    },
+    {
+      "Identity": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\obj\\Debug\\net9.0\\compressed\\nz0pv8olo1-o1o13a6vjx.gz",
+      "SourceId": "Consumer",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Consumer",
+      "RelativePath": "jquery/jquery.min#[.{fingerprint=o1o13a6vjx}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\jquery\\jquery.min.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "9lbv9l0z68",
+      "Integrity": "bSlV8nIWgnEsf0ljiCRK0xw364UXDcqZZilq1CQ+At0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\jquery\\jquery.min.js"
+    },
+    {
+      "Identity": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\obj\\Debug\\net9.0\\compressed\\p06zgh5vkv-0790sg73p9.gz",
+      "SourceId": "Consumer",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Consumer",
+      "RelativePath": "Index#[.{fingerprint=0790sg73p9}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\Index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "hi9f9xh70v",
+      "Integrity": "F4XfEWV0rZOJTTw57sSQ8wR9qO5+VAZa6d9RUE6+B/s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\Index.html"
+    },
+    {
+      "Identity": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\obj\\Debug\\net9.0\\compressed\\zt80sh1b0f-2z0ns9nrw6.gz",
+      "SourceId": "Consumer",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Consumer",
+      "RelativePath": "jquery/jquery.slim#[.{fingerprint=2z0ns9nrw6}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\jquery\\jquery.slim.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "yow8h3bl0n",
+      "Integrity": "fhspAbITSYOUuRd6s5oYdr7V1DC3ibPbW5Siv7MGps8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\jquery\\jquery.slim.js"
+    },
+    {
+      "Identity": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\Index.html",
+      "SourceId": "Consumer",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\",
+      "BasePath": "_content/Consumer",
+      "RelativePath": "Index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0790sg73p9",
+      "Integrity": "jDpJYW4YNcZFSgqQHOUuRPM/cjE3uGUD8K8zfhrvGTw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Index.html"
+    },
+    {
+      "Identity": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\jquery\\jquery.js",
+      "SourceId": "Consumer",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\",
+      "BasePath": "_content/Consumer",
+      "RelativePath": "jquery/jquery#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0i3buxo5is",
+      "Integrity": "eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\jquery\\jquery.js"
+    },
+    {
+      "Identity": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\jquery\\jquery.min.js",
+      "SourceId": "Consumer",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\",
+      "BasePath": "_content/Consumer",
+      "RelativePath": "jquery/jquery.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o1o13a6vjx",
+      "Integrity": "/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\jquery\\jquery.min.js"
+    },
+    {
+      "Identity": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\jquery\\jquery.min.map",
+      "SourceId": "Consumer",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\",
+      "BasePath": "_content/Consumer",
+      "RelativePath": "jquery/jquery.min#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ttgo8qnofa",
+      "Integrity": "z3TVHGLSmRiZiRMOu0I7MEU1Mv3ImI2OK3GxuRZagLg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\jquery\\jquery.min.map"
+    },
+    {
+      "Identity": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\jquery\\jquery.slim.js",
+      "SourceId": "Consumer",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\",
+      "BasePath": "_content/Consumer",
+      "RelativePath": "jquery/jquery.slim#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2z0ns9nrw6",
+      "Integrity": "UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\jquery\\jquery.slim.js"
+    },
+    {
+      "Identity": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\jquery\\jquery.slim.min.js",
+      "SourceId": "Consumer",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\",
+      "BasePath": "_content/Consumer",
+      "RelativePath": "jquery/jquery.slim.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "muycvpuwrr",
+      "Integrity": "kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\jquery\\jquery.slim.min.js"
+    },
+    {
+      "Identity": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\jquery\\jquery.slim.min.map",
+      "SourceId": "Consumer",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\",
+      "BasePath": "_content/Consumer",
+      "RelativePath": "jquery/jquery.slim.min#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "87fc7y1x7t",
+      "Integrity": "9FYmcgtx8qZo1OPPiPt/BJ/sz0EI8SRNUYsFLZDEEt4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\jquery\\jquery.slim.min.map"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "Index.0790sg73p9.html",
+      "AssetFile": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\obj\\Debug\\net9.0\\compressed\\p06zgh5vkv-0790sg73p9.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001814882033"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "550"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F4XfEWV0rZOJTTw57sSQ8wR9qO5+VAZa6d9RUE6+B/s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 08:49:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"jDpJYW4YNcZFSgqQHOUuRPM/cjE3uGUD8K8zfhrvGTw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0790sg73p9"
+        },
+        {
+          "Name": "label",
+          "Value": "Index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jDpJYW4YNcZFSgqQHOUuRPM/cjE3uGUD8K8zfhrvGTw="
+        }
+      ]
+    },
+    {
+      "Route": "Index.0790sg73p9.html",
+      "AssetFile": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\Index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1591"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jDpJYW4YNcZFSgqQHOUuRPM/cjE3uGUD8K8zfhrvGTw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 08:49:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0790sg73p9"
+        },
+        {
+          "Name": "label",
+          "Value": "Index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jDpJYW4YNcZFSgqQHOUuRPM/cjE3uGUD8K8zfhrvGTw="
+        }
+      ]
+    },
+    {
+      "Route": "Index.0790sg73p9.html.gz",
+      "AssetFile": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\obj\\Debug\\net9.0\\compressed\\p06zgh5vkv-0790sg73p9.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "550"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F4XfEWV0rZOJTTw57sSQ8wR9qO5+VAZa6d9RUE6+B/s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 08:49:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0790sg73p9"
+        },
+        {
+          "Name": "label",
+          "Value": "Index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-F4XfEWV0rZOJTTw57sSQ8wR9qO5+VAZa6d9RUE6+B/s="
+        }
+      ]
+    },
+    {
+      "Route": "Index.html",
+      "AssetFile": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\obj\\Debug\\net9.0\\compressed\\p06zgh5vkv-0790sg73p9.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001814882033"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "550"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F4XfEWV0rZOJTTw57sSQ8wR9qO5+VAZa6d9RUE6+B/s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 08:49:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"jDpJYW4YNcZFSgqQHOUuRPM/cjE3uGUD8K8zfhrvGTw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jDpJYW4YNcZFSgqQHOUuRPM/cjE3uGUD8K8zfhrvGTw="
+        }
+      ]
+    },
+    {
+      "Route": "Index.html",
+      "AssetFile": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\Index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1591"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jDpJYW4YNcZFSgqQHOUuRPM/cjE3uGUD8K8zfhrvGTw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 08:49:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jDpJYW4YNcZFSgqQHOUuRPM/cjE3uGUD8K8zfhrvGTw="
+        }
+      ]
+    },
+    {
+      "Route": "Index.html.gz",
+      "AssetFile": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\obj\\Debug\\net9.0\\compressed\\p06zgh5vkv-0790sg73p9.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "550"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F4XfEWV0rZOJTTw57sSQ8wR9qO5+VAZa6d9RUE6+B/s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 08:49:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-F4XfEWV0rZOJTTw57sSQ8wR9qO5+VAZa6d9RUE6+B/s="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.0i3buxo5is.js",
+      "AssetFile": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\obj\\Debug\\net9.0\\compressed\\nu6n2d0ai6-0i3buxo5is.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000011896831"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "84055"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q0KM+9yOLRYeTH/iGBE/HUYO08aXn2DmZ+yyIU6/kho=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 08:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0i3buxo5is"
+        },
+        {
+          "Name": "label",
+          "Value": "jquery/jquery.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.0i3buxo5is.js",
+      "AssetFile": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\jquery\\jquery.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "285314"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 08:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0i3buxo5is"
+        },
+        {
+          "Name": "label",
+          "Value": "jquery/jquery.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.0i3buxo5is.js.gz",
+      "AssetFile": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\obj\\Debug\\net9.0\\compressed\\nu6n2d0ai6-0i3buxo5is.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "84055"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q0KM+9yOLRYeTH/iGBE/HUYO08aXn2DmZ+yyIU6/kho=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 08:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0i3buxo5is"
+        },
+        {
+          "Name": "label",
+          "Value": "jquery/jquery.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-q0KM+9yOLRYeTH/iGBE/HUYO08aXn2DmZ+yyIU6/kho="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.js",
+      "AssetFile": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\obj\\Debug\\net9.0\\compressed\\nu6n2d0ai6-0i3buxo5is.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000011896831"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "84055"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q0KM+9yOLRYeTH/iGBE/HUYO08aXn2DmZ+yyIU6/kho=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 08:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.js",
+      "AssetFile": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\jquery\\jquery.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "285314"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 08:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.js.gz",
+      "AssetFile": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\obj\\Debug\\net9.0\\compressed\\nu6n2d0ai6-0i3buxo5is.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "84055"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q0KM+9yOLRYeTH/iGBE/HUYO08aXn2DmZ+yyIU6/kho=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 08:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-q0KM+9yOLRYeTH/iGBE/HUYO08aXn2DmZ+yyIU6/kho="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.min.js",
+      "AssetFile": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\obj\\Debug\\net9.0\\compressed\\nz0pv8olo1-o1o13a6vjx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000032879595"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30413"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bSlV8nIWgnEsf0ljiCRK0xw364UXDcqZZilq1CQ+At0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 08:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.min.js",
+      "AssetFile": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\jquery\\jquery.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87533"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 08:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.min.js.gz",
+      "AssetFile": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\obj\\Debug\\net9.0\\compressed\\nz0pv8olo1-o1o13a6vjx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30413"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bSlV8nIWgnEsf0ljiCRK0xw364UXDcqZZilq1CQ+At0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 08:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bSlV8nIWgnEsf0ljiCRK0xw364UXDcqZZilq1CQ+At0="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.min.map",
+      "AssetFile": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\obj\\Debug\\net9.0\\compressed\\2fslix3te2-ttgo8qnofa.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000018542555"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53929"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0HH7P7Mtrs+2sBMSFXD8DJw0oV4iDB5wkeRFpSi113A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 08:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"z3TVHGLSmRiZiRMOu0I7MEU1Mv3ImI2OK3GxuRZagLg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-z3TVHGLSmRiZiRMOu0I7MEU1Mv3ImI2OK3GxuRZagLg="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.min.map",
+      "AssetFile": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\jquery\\jquery.min.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "134755"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z3TVHGLSmRiZiRMOu0I7MEU1Mv3ImI2OK3GxuRZagLg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 08:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-z3TVHGLSmRiZiRMOu0I7MEU1Mv3ImI2OK3GxuRZagLg="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.min.map.gz",
+      "AssetFile": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\obj\\Debug\\net9.0\\compressed\\2fslix3te2-ttgo8qnofa.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53929"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0HH7P7Mtrs+2sBMSFXD8DJw0oV4iDB5wkeRFpSi113A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 08:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0HH7P7Mtrs+2sBMSFXD8DJw0oV4iDB5wkeRFpSi113A="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.min.o1o13a6vjx.js",
+      "AssetFile": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\obj\\Debug\\net9.0\\compressed\\nz0pv8olo1-o1o13a6vjx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000032879595"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30413"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bSlV8nIWgnEsf0ljiCRK0xw364UXDcqZZilq1CQ+At0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 08:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o1o13a6vjx"
+        },
+        {
+          "Name": "label",
+          "Value": "jquery/jquery.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.min.o1o13a6vjx.js",
+      "AssetFile": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\jquery\\jquery.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87533"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 08:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o1o13a6vjx"
+        },
+        {
+          "Name": "label",
+          "Value": "jquery/jquery.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.min.o1o13a6vjx.js.gz",
+      "AssetFile": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\obj\\Debug\\net9.0\\compressed\\nz0pv8olo1-o1o13a6vjx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30413"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bSlV8nIWgnEsf0ljiCRK0xw364UXDcqZZilq1CQ+At0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 08:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o1o13a6vjx"
+        },
+        {
+          "Name": "label",
+          "Value": "jquery/jquery.min.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bSlV8nIWgnEsf0ljiCRK0xw364UXDcqZZilq1CQ+At0="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.min.ttgo8qnofa.map",
+      "AssetFile": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\obj\\Debug\\net9.0\\compressed\\2fslix3te2-ttgo8qnofa.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000018542555"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53929"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0HH7P7Mtrs+2sBMSFXD8DJw0oV4iDB5wkeRFpSi113A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 08:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"z3TVHGLSmRiZiRMOu0I7MEU1Mv3ImI2OK3GxuRZagLg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ttgo8qnofa"
+        },
+        {
+          "Name": "label",
+          "Value": "jquery/jquery.min.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-z3TVHGLSmRiZiRMOu0I7MEU1Mv3ImI2OK3GxuRZagLg="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.min.ttgo8qnofa.map",
+      "AssetFile": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\jquery\\jquery.min.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "134755"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z3TVHGLSmRiZiRMOu0I7MEU1Mv3ImI2OK3GxuRZagLg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 08:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ttgo8qnofa"
+        },
+        {
+          "Name": "label",
+          "Value": "jquery/jquery.min.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-z3TVHGLSmRiZiRMOu0I7MEU1Mv3ImI2OK3GxuRZagLg="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.min.ttgo8qnofa.map.gz",
+      "AssetFile": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\obj\\Debug\\net9.0\\compressed\\2fslix3te2-ttgo8qnofa.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53929"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0HH7P7Mtrs+2sBMSFXD8DJw0oV4iDB5wkeRFpSi113A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 08:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ttgo8qnofa"
+        },
+        {
+          "Name": "label",
+          "Value": "jquery/jquery.min.map.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0HH7P7Mtrs+2sBMSFXD8DJw0oV4iDB5wkeRFpSi113A="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.slim.2z0ns9nrw6.js",
+      "AssetFile": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\obj\\Debug\\net9.0\\compressed\\zt80sh1b0f-2z0ns9nrw6.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000014637859"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68315"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fhspAbITSYOUuRd6s5oYdr7V1DC3ibPbW5Siv7MGps8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 08:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2z0ns9nrw6"
+        },
+        {
+          "Name": "label",
+          "Value": "jquery/jquery.slim.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.slim.2z0ns9nrw6.js",
+      "AssetFile": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\jquery\\jquery.slim.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232015"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 08:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2z0ns9nrw6"
+        },
+        {
+          "Name": "label",
+          "Value": "jquery/jquery.slim.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.slim.2z0ns9nrw6.js.gz",
+      "AssetFile": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\obj\\Debug\\net9.0\\compressed\\zt80sh1b0f-2z0ns9nrw6.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68315"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fhspAbITSYOUuRd6s5oYdr7V1DC3ibPbW5Siv7MGps8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 08:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2z0ns9nrw6"
+        },
+        {
+          "Name": "label",
+          "Value": "jquery/jquery.slim.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fhspAbITSYOUuRd6s5oYdr7V1DC3ibPbW5Siv7MGps8="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.slim.js",
+      "AssetFile": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\obj\\Debug\\net9.0\\compressed\\zt80sh1b0f-2z0ns9nrw6.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000014637859"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68315"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fhspAbITSYOUuRd6s5oYdr7V1DC3ibPbW5Siv7MGps8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 08:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.slim.js",
+      "AssetFile": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\jquery\\jquery.slim.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232015"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 08:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.slim.js.gz",
+      "AssetFile": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\obj\\Debug\\net9.0\\compressed\\zt80sh1b0f-2z0ns9nrw6.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68315"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fhspAbITSYOUuRd6s5oYdr7V1DC3ibPbW5Siv7MGps8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 08:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fhspAbITSYOUuRd6s5oYdr7V1DC3ibPbW5Siv7MGps8="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.slim.min.87fc7y1x7t.map",
+      "AssetFile": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\obj\\Debug\\net9.0\\compressed\\j61uux5abz-87fc7y1x7t.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000023399476"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42735"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2u2XFgZyC96dP/elrO5ny/maD/llVl8JsX3pBm2SWT0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 08:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"9FYmcgtx8qZo1OPPiPt/BJ/sz0EI8SRNUYsFLZDEEt4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "87fc7y1x7t"
+        },
+        {
+          "Name": "label",
+          "Value": "jquery/jquery.slim.min.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9FYmcgtx8qZo1OPPiPt/BJ/sz0EI8SRNUYsFLZDEEt4="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.slim.min.87fc7y1x7t.map",
+      "AssetFile": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\jquery\\jquery.slim.min.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "107143"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9FYmcgtx8qZo1OPPiPt/BJ/sz0EI8SRNUYsFLZDEEt4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 08:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "87fc7y1x7t"
+        },
+        {
+          "Name": "label",
+          "Value": "jquery/jquery.slim.min.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9FYmcgtx8qZo1OPPiPt/BJ/sz0EI8SRNUYsFLZDEEt4="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.slim.min.87fc7y1x7t.map.gz",
+      "AssetFile": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\obj\\Debug\\net9.0\\compressed\\j61uux5abz-87fc7y1x7t.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42735"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2u2XFgZyC96dP/elrO5ny/maD/llVl8JsX3pBm2SWT0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 08:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "87fc7y1x7t"
+        },
+        {
+          "Name": "label",
+          "Value": "jquery/jquery.slim.min.map.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2u2XFgZyC96dP/elrO5ny/maD/llVl8JsX3pBm2SWT0="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.slim.min.js",
+      "AssetFile": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\obj\\Debug\\net9.0\\compressed\\8hbwhcenx7-muycvpuwrr.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000041511000"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24089"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OK9mKWiOoFmOZ+xYop9MRSKE6LHMu/9ZTCPvluUOpcA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 08:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.slim.min.js",
+      "AssetFile": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\jquery\\jquery.slim.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "70264"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 08:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.slim.min.js.gz",
+      "AssetFile": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\obj\\Debug\\net9.0\\compressed\\8hbwhcenx7-muycvpuwrr.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24089"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OK9mKWiOoFmOZ+xYop9MRSKE6LHMu/9ZTCPvluUOpcA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 08:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OK9mKWiOoFmOZ+xYop9MRSKE6LHMu/9ZTCPvluUOpcA="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.slim.min.map",
+      "AssetFile": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\obj\\Debug\\net9.0\\compressed\\j61uux5abz-87fc7y1x7t.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000023399476"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42735"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2u2XFgZyC96dP/elrO5ny/maD/llVl8JsX3pBm2SWT0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 08:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"9FYmcgtx8qZo1OPPiPt/BJ/sz0EI8SRNUYsFLZDEEt4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9FYmcgtx8qZo1OPPiPt/BJ/sz0EI8SRNUYsFLZDEEt4="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.slim.min.map",
+      "AssetFile": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\jquery\\jquery.slim.min.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "107143"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9FYmcgtx8qZo1OPPiPt/BJ/sz0EI8SRNUYsFLZDEEt4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 08:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9FYmcgtx8qZo1OPPiPt/BJ/sz0EI8SRNUYsFLZDEEt4="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.slim.min.map.gz",
+      "AssetFile": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\obj\\Debug\\net9.0\\compressed\\j61uux5abz-87fc7y1x7t.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42735"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2u2XFgZyC96dP/elrO5ny/maD/llVl8JsX3pBm2SWT0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 08:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2u2XFgZyC96dP/elrO5ny/maD/llVl8JsX3pBm2SWT0="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.slim.min.muycvpuwrr.js",
+      "AssetFile": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\obj\\Debug\\net9.0\\compressed\\8hbwhcenx7-muycvpuwrr.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000041511000"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24089"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OK9mKWiOoFmOZ+xYop9MRSKE6LHMu/9ZTCPvluUOpcA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 08:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "muycvpuwrr"
+        },
+        {
+          "Name": "label",
+          "Value": "jquery/jquery.slim.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.slim.min.muycvpuwrr.js",
+      "AssetFile": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\jquery\\jquery.slim.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "70264"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 08:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "muycvpuwrr"
+        },
+        {
+          "Name": "label",
+          "Value": "jquery/jquery.slim.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.slim.min.muycvpuwrr.js.gz",
+      "AssetFile": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\obj\\Debug\\net9.0\\compressed\\8hbwhcenx7-muycvpuwrr.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24089"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OK9mKWiOoFmOZ+xYop9MRSKE6LHMu/9ZTCPvluUOpcA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Feb 2025 08:47:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "muycvpuwrr"
+        },
+        {
+          "Name": "label",
+          "Value": "jquery/jquery.slim.min.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OK9mKWiOoFmOZ+xYop9MRSKE6LHMu/9ZTCPvluUOpcA="
+        }
+      ]
+    }
+  ]
+}

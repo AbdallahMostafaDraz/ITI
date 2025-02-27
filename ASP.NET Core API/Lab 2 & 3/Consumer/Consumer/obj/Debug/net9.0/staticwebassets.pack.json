@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\Index.html",
+      "PackagePath": "staticwebassets\\Index.html"
+    },
+    {
+      "Id": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\jquery\\jquery.js"
+    },
+    {
+      "Id": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\jquery\\jquery.min.map",
+      "PackagePath": "staticwebassets\\jquery\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\jquery\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\jquery\\jquery.slim.js"
+    },
+    {
+      "Id": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\jquery\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\jquery\\jquery.slim.min.js"
+    },
+    {
+      "Id": "E:\\ITI\\ITI\\ASP.NET Core API\\Lab2\\Consumer\\Consumer\\wwwroot\\jquery\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\jquery\\jquery.slim.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Consumer.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Consumer.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.Consumer.props",
+      "PackagePath": "build\\Consumer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.Consumer.props",
+      "PackagePath": "buildMultiTargeting\\Consumer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.Consumer.props",
+      "PackagePath": "buildTransitive\\Consumer.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
