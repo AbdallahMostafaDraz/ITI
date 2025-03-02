@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            margin: 0;
+            direction: rtl;
+        }
+
+        .container {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            width: 400px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 2rem;
+            transition: color 0.3s ease;
+        }
+
+        .slider-group {
+            margin: 1rem 0;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+            color: #333;
+        }
+
+        input[type="range"] {
+            width: 100%;
+            cursor: pointer;
+            accent-color: currentColor;
+        }
+
+        .value {
+            font-size: 0.9rem;
+            color: #666;
+            margin-right: 10px;
+        }
+
+        #red { color: #ff4444; }
+        #green { color: #44ff44; }
+        #blue { color: #4444ff; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 id="coloredText">Real Madrid</h1>
+        
+        <div class="slider-group">
+            <label id="red" for="redRange">Red<span class="value" id="redValue">0</span></label>
+            <input type="range" id="redRange" min="0" max="255" value="0">
+        </div>
+
+        <div class="slider-group">
+            <label id="green" for="greenRange">Green</label>: <span class="value" id="greenValue">0</span></label>
+            <input type="range" id="greenRange" min="0" max="255" value="0">
+        </div>
+
+        <div class="slider-group">
+            <label id="blue" for="blueRange">Blue<span class="value" id="blueValue">0</span></label>
+            <input type="range" id="blueRange" min="0" max="255" value="0">
+        </div>
+    </div>
+
+    <script>
+        const redRange = document.getElementById('redRange');
+        const greenRange = document.getElementById('greenRange');
+        const blueRange = document.getElementById('blueRange');
+        
+        const redValue = document.getElementById('redValue');
+        const greenValue = document.getElementById('greenValue');
+        const blueValue = document.getElementById('blueValue');
+        
+        const coloredText = document.getElementById('coloredText');
+
+        function updateColor() {
+            const r = redRange.value;
+            const g = greenRange.value;
+            const b = blueRange.value;
+
+            // Update values
+            redValue.textContent = r;
+            greenValue.textContent = g;
+            blueValue.textContent = b;
+
+            // Update text color
+            coloredText.style.color = `rgb(${r}, ${g}, ${b})`;
+        }
+
+        // Add event listeners to all sliders
+        [redRange, greenRange, blueRange].forEach(slider => {
+            slider.addEventListener('input', updateColor);
+        });
+
+        // Initial call to set default values
+        updateColor();
+    </script>
+</body>
+</html>

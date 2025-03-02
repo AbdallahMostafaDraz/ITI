@@ -1,0 +1,97 @@
+﻿{
+   "CodeGenerationMode": 4,
+   "ContextClassName": "AdventureWorksContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "Dapper",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[Person].[Address]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Person].[AddressType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Person].[BusinessEntity]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Person].[BusinessEntityAddress]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Person].[BusinessEntityContact]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Person].[ContactType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Person].[CountryRegion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Person].[EmailAddress]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Person].[Password]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Person].[Person]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Person].[PersonPhone]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Person].[PhoneNumberType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Person].[StateProvince]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDatabaseNamesForRoutines": true,
+   "UseDateOnlyTimeOnly": true,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseInternalAccessModifiersForSprocsAndFunctions": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false,
+   "UseT4Split": false
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="Task1.css">
+</head>
+<body>
+    <div class="container">
+        <form id="FormOne" method="get">
+            <h2>Login</h2>
+            <div class="input-group">
+                <input 
+                    type="email" 
+                    required 
+                    placeholder="Email" 
+                    name="EmailAdress" 
+                    id="EmailAdress"
+                >
+                <span class="error" id="emailError"></span>
+            </div>
+            <div class="input-group">
+                <input 
+                    type="password" 
+                    required 
+                    placeholder="Password" 
+                    name="pass" 
+                    id="Password"
+                    pattern="(?=.*\d)(?=.*[a-zA-Z]).{6,}"
+                    title="Password must be at least 6 characters, including a letter and a number"
+                >
+                <span class="error" id="passError"></span>
+            </div>
+            <div class="options">
+                <label>
+                    <input type="checkbox" name="Remember" id="RememberMe">
+                    Remember Me
+                </label>
+                <button type="submit" id="Button">Save</button>
+            </div>
+        </form>
+        <div id="inText" class="output"></div>
+    </div>
+    <script src="Task1.js"></script>
+</body>
+</html>

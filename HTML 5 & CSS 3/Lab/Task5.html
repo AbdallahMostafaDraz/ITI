@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task5</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 30px;
+            min-height: 100vh;
+        }
+
+        /* Enhanced Nav */
+        nav {
+            background: linear-gradient(90deg, #2c3e50 0%, #4ca1af 100%);
+            color: white;
+            padding: 15px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+        }
+
+        /* Enhanced Main Content */
+        main {
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+
+        /* Enhanced Aside */
+        aside {
+            background: linear-gradient(135deg, #ffffff 0%, #e2e2e2 100%);
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            min-width: 250px;
+            transition: transform 0.3s ease;
+        }
+
+        aside:hover {
+            transform: translateY(-5px);
+        }
+
+        aside h3 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #4ca1af;
+            padding-bottom: 5px;
+        }
+
+        aside ul {
+            list-style: none;
+        }
+
+        aside a {
+            color: #4ca1af;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        aside a:hover {
+            color: #2c3e50;
+        }
+
+        /* Enhanced Article */
+        article {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            flex: 3;
+            transition: transform 0.3s ease;
+        }
+
+        article:hover {
+            transform: translateY(-5px);
+        }
+
+        article h2 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #4ca1af;
+            padding-bottom: 5px;
+        }
+
+        article p {
+            color: #666;
+        }
+
+        /* Enhanced Footer */
+        footer {
+            background: linear-gradient(90deg, #2c3e50 0%, #4ca1af 100%);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+    <main>
+        <article>
+            <h2>Article Title</h2>
+            <p>This article talks about a very interesting topic. It has some amazing content to read! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </article>
+        <aside>
+            <h3>Related Links</h3>
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+            </ul>
+        </aside>
+    </main>
+    <footer>
+        <p>© 2025 Your Website. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

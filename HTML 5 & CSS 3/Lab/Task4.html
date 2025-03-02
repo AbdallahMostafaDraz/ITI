@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task4</title>
+</head>
+
+<body>
+    <input type="color" id="color">
+    <canvas id="Canvas" width="200" height="200"></canvas>
+
+    <script>
+        let c = document.getElementById("Canvas");
+        let color = document.getElementById("color");
+        var ctx = c.getContext("2d");
+
+
+
+
+        function drawCircle() {
+            for (i = 0; i < 50; i++) {
+
+                // ctx.clearRect(0, 0, c.width, c.height);
+                ctx.strokeStyle = color.value;
+                ctx.beginPath();
+                ctx.arc(Math.random() * c.width, Math.random() * c.height, 10, 0, 2 * Math.PI);
+                ctx.stroke();
+            }
+        }
+        color.onchange = drawCircle;
+        drawCircle();
+    </script>
+</body>
+
+</html>
