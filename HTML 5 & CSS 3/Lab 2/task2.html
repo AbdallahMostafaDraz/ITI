@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 2</title>
+    <link rel="stylesheet" href="task2.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-userdata">
+            <img src="image1.jpg" alt="Logo" class="navbar-userimage">
+            <h1 class="navbar-username">Abdallah Mostafa</h1>
+        </div>
+        <div class="navbar-links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+     
+    <div class="container">
+        <img id="Image" src="car.jpg" alt="Main Image" class="image">
+        
+        
+        <div class="button-group">
+            <button class="btn active" onclick="applyFilter('none', 'Normal')">Normal</button>
+            <button class="btn" onclick="applyFilter('grayscale(100%)', 'Grayscale')">Grayscale</button>
+            <button class="btn" onclick="applyFilter('sepia(100%)', 'Sepia')">Sepia</button>
+            <button class="btn" onclick="applyFilter('blur(5px)', 'Blur')">Blur</button>
+            <button class="btn" onclick="applyFilter('invert(100%)', 'Invert')">Invert</button>
+        </div>
+    </div>
+
+
+    <script>
+        function applyFilter(filterValue, filterName) {
+            document.getElementById('Image').style.filter = filterValue;
+            
+            const buttons = document.querySelectorAll('.btn');
+            buttons.forEach(button => {
+                button.classList.remove('active');
+            });
+            event.target.classList.add('active');
+        }
+    </script>
+</body>
+
+
+</html>
