@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "LinqSummary/1.0.0": {
+        "runtime": {
+          "LinqSummary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LinqSummary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

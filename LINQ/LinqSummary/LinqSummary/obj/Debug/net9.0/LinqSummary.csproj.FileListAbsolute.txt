@@ -1,0 +1,15 @@
+E:\ITI\ITI\LINQ\LinqSummary\LinqSummary\bin\Debug\net9.0\LinqSummary.exe
+E:\ITI\ITI\LINQ\LinqSummary\LinqSummary\bin\Debug\net9.0\LinqSummary.deps.json
+E:\ITI\ITI\LINQ\LinqSummary\LinqSummary\bin\Debug\net9.0\LinqSummary.runtimeconfig.json
+E:\ITI\ITI\LINQ\LinqSummary\LinqSummary\bin\Debug\net9.0\LinqSummary.dll
+E:\ITI\ITI\LINQ\LinqSummary\LinqSummary\bin\Debug\net9.0\LinqSummary.pdb
+E:\ITI\ITI\LINQ\LinqSummary\LinqSummary\obj\Debug\net9.0\LinqSummary.GeneratedMSBuildEditorConfig.editorconfig
+E:\ITI\ITI\LINQ\LinqSummary\LinqSummary\obj\Debug\net9.0\LinqSummary.AssemblyInfoInputs.cache
+E:\ITI\ITI\LINQ\LinqSummary\LinqSummary\obj\Debug\net9.0\LinqSummary.AssemblyInfo.cs
+E:\ITI\ITI\LINQ\LinqSummary\LinqSummary\obj\Debug\net9.0\LinqSummary.csproj.CoreCompileInputs.cache
+E:\ITI\ITI\LINQ\LinqSummary\LinqSummary\obj\Debug\net9.0\LinqSummary.sourcelink.json
+E:\ITI\ITI\LINQ\LinqSummary\LinqSummary\obj\Debug\net9.0\LinqSummary.dll
+E:\ITI\ITI\LINQ\LinqSummary\LinqSummary\obj\Debug\net9.0\refint\LinqSummary.dll
+E:\ITI\ITI\LINQ\LinqSummary\LinqSummary\obj\Debug\net9.0\LinqSummary.pdb
+E:\ITI\ITI\LINQ\LinqSummary\LinqSummary\obj\Debug\net9.0\LinqSummary.genruntimeconfig.cache
+E:\ITI\ITI\LINQ\LinqSummary\LinqSummary\obj\Debug\net9.0\ref\LinqSummary.dll
