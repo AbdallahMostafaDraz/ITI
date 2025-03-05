@@ -53,6 +53,7 @@ namespace LinqSummary
             */
 
             // [3] Select a Specific Element
+            /*
             {
                 var employees = EmployeesRepositry.LoadEmployees();
                 
@@ -83,10 +84,73 @@ namespace LinqSummary
 
                 // Single =>  if there no elements or return more than one element, will throw an exception
                 // SingleOrDefault => if there no elements retunr default value. and if return more than one element, will thorw an exception also.
-            
             }
+            */
+
+            // [4] Defferd Execution VS Immediate Execution
+            /*
+            {
+                var numbers = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+                var evenNumbers = numbers.Where(x => x % 2 == 0);  // Defferd Execution
+                numbers.Add(12);
+                numbers.Add(14);
+                numbers.Add(16);
+                numbers.Remove(6);
+                Print(evenNumbers);   // 2, 4, 8, 10, 12, 14, 16
 
 
+                var numbers2 = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+                var evenNumbers2 = numbers2.Where(x => x % 2 == 0).ToList();  // Immedate Execution
+                numbers2.Add(12);
+                numbers2.Add(14);
+                numbers2.Add(16);
+                numbers2.Remove(6);
+                Print(evenNumbers2);  // 2, 4, 6, 8, 10
+            }
+            */
+
+            // [5] Projection Operation (Select, SelectMany, Zip)
+            {
+                // Select
+                List<string> words = new() { "my", "name", "is", "abdallah", "mostafa" };
+                var upperCaseWords = words.Select(w => w.ToUpper());
+                Print(upperCaseWords);
+            
+                var numbers = new[] { 1, 2, 3, 4, 5 };
+                var squares = numbers.Select(n => n * n);
+                Print(squares);
+
+                var squares2 = from n in numbers
+                               select n * n;
+                Print(squares2);
+
+                var employees = EmployeesRepositry.LoadEmployees();
+                var employees2 = employees.Select(e => new EmployeeV2 { Name = e.Name });
+                Print(employees2);
+
+                // Select Many
+                var statments = new[] { "My Name Is Abdallah", "My Age Is 24 Years", "I Love Programming" };
+                var wordsInStatments = statments.SelectMany(e => e.Split(' '));
+                Print(wordsInStatments);
+
+                var wordsInStatments2 = from s in statments
+                                        from w in s.Split(' ')
+                                        select w;
+
+                var wordsInStatments3 = statments.SelectMany(w => w.Split(' ')).Distinct();
+                Print(wordsInStatments3);
+
+
+                // Zip
+                string[] colorsNames = ["Red", "Green", "Blue"];
+                string[] colorsHexa = ["FF0000", "00FF00", "0000FF"];
+                var colors = colorsNames.Zip(colorsHexa, (name, hexa) => new { Name = name, Hexa = hexa });
+                Print(colors);
+
+                var colors2 = from name in colorsNames.Zip(colorsHexa)
+                              select $"{name.First} => {name.Second}";
+                Print(colors2);
+            }
         }
 
         static void Print<T>(IEnumerable<T> result)

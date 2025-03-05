@@ -9,6 +9,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{61AB186A-A9A2-45CA-8A4D-B2323B3F228B}|LinqSummary\\LinqSummary.csproj|e:\\iti\\iti\\linq\\linqsummary\\linqsummary\\repositries\\employeesrepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61AB186A-A9A2-45CA-8A4D-B2323B3F228B}|LinqSummary\\LinqSummary.csproj|solutionrelative:linqsummary\\repositries\\employeesrepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61AB186A-A9A2-45CA-8A4D-B2323B3F228B}|LinqSummary\\LinqSummary.csproj|e:\\iti\\iti\\linq\\linqsummary\\linqsummary\\models\\employeev2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61AB186A-A9A2-45CA-8A4D-B2323B3F228B}|LinqSummary\\LinqSummary.csproj|solutionrelative:linqsummary\\models\\employeev2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -27,6 +31,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeV2.cs",
+              "DocumentMoniker": "E:\\ITI\\ITI\\LINQ\\LinqSummary\\LinqSummary\\Models\\EmployeeV2.cs",
+              "RelativeDocumentMoniker": "LinqSummary\\Models\\EmployeeV2.cs",
+              "ToolTip": "E:\\ITI\\ITI\\LINQ\\LinqSummary\\LinqSummary\\Models\\EmployeeV2.cs",
+              "RelativeToolTip": "LinqSummary\\Models\\EmployeeV2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T19:06:21.593Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -49,7 +66,7 @@
               "RelativeDocumentMoniker": "LinqSummary\\Program.cs",
               "ToolTip": "E:\\ITI\\ITI\\LINQ\\LinqSummary\\LinqSummary\\Program.cs",
               "RelativeToolTip": "LinqSummary\\Program.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAACoAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAQwJcAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-05T12:39:00.814Z",
               "EditorCaption": ""
