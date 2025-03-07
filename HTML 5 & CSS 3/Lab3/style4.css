@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sign {
+    padding: 20px;
+    background-color: black;
+    width: fit-content;
+    margin: 20px 20px;
+}
+
+.green,
+.yellow,
+.red {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    transition: 1s ease-in-out;
+}
+
+.green:hover,
+.yellow:hover,
+.red:hover {
+    transform: scale(1.3);
+    filter: blur(2px);
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    background-color: azure;
+    position: relative;
+    height: 450px;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.img {
+    position: absolute;
+    right: 0;
+    top: 100px;
+    width: 350px;
+    height: 350px;
+    background-color: transparent;
+    /* Remove the animation from here */
+}
+
+/* Define the animation but don't apply it yet */
+@keyframes move {
+    0% {
+        right: 0;
+        transform: scaleX(-1);
+    }
+    45% {
+        right: 950px;
+        transform: scaleX(-1);
+    }
+    50% {
+        right: 950px;
+        transform: scaleX(1);
+    }
+    95% {
+        right: 0;
+        transform: scaleX(1);
+    }
+    100% {
+        right: 0;
+        transform: scaleX(-1);
+    }
+}

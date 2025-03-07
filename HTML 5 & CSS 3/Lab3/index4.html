@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task4</title>
+    <link rel="stylesheet" href="style4.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="sign">
+            <div class="green"></div>
+            <div class="yellow"></div>
+            <div class="red"></div>
+        </div>
+        <img class="img" src="man.gif" alt="Walking Man">
+    </div>
+    
+    <script>
+        const greenLight = document.querySelector('.green');
+        const walkingMan = document.querySelector('.img');
+
+        // Add hover event listeners to the green light
+        greenLight.addEventListener('mouseover', () => {
+            walkingMan.style.animation = 'move 9s linear infinite';
+        });
+
+        greenLight.addEventListener('mouseout', () => {
+            walkingMan.style.animation = 'none';
+            walkingMan.style.right = '0'; // Reset position
+            walkingMan.style.transform = 'scaleX(-1)'; // Reset to initial orientation
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+.grass {
+    position: absolute; 
+    top: 400px;
+    left: 250px;
+}
+
+
+.player1, .player2 {
+    width: 300px;
+    height: 350px; 
+    background-size: cover;
+    position: absolute; 
+    top: 200px;
+}
+.player1 {
+    background-image: url('/player1.png' ); 
+    left: 250px;
+}
+
+.player2 {
+    background-image: url('./player2.png'); 
+    right: 300px; 
+}
+
+.ball {
+    width:90px; 
+    height: 90px;
+    background-image: url('./ball.png');
+    background-size: cover;  
+    position: absolute;
+    left: 300px;   
+    top: 350px;
+}

@@ -1,0 +1,24 @@
+    * {
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .ball {
+        position: absolute;
+        top: 250px;
+        left: 250px;
+        animation: ball 2s linear infinite alternate;
+    }
+
+
+    @keyframes ball {
+        0% {
+            rotate: 0deg;
+            left: 250;
+        }
+
+        100% {
+            rotate: 360deg;
+            left: 1200px;
+        }
+    }
