@@ -1,0 +1,24 @@
+﻿<h1>Manage User's Roles</h1>
+<form method="post">
+    <input hidden type="text" value="@ViewBag.Id" />
+    <label>Select Roles To Remove</label>
+    <br />
+    <select name="RolesToRemove" multiple>
+        @foreach(var role in ViewBag.RolesIn)
+        {
+            <option>@role</option>
+        }
+    </select>
+    <br /><br />
+    <label>Select Roles To Add</label>
+    <br />
+    <select name="RolesToAdd" multiple>
+        @foreach (var role in ViewBag.RolesOut)
+        {
+            <option>@role</option>
+        }
+    </select>
+    <br />
+    <br />
+    <button class="btn btn-primary" type="submit" >Update</button>
+</form>

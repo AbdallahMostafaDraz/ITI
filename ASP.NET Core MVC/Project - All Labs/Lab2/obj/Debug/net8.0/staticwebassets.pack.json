@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "E:\\ITI\\ITI\\ASP.NET Core MVC\\Project - All Labs\\Lab2\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Lab2.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Lab2.bundle.scp.css"
+      "PackagePath": "staticwebassets\\Lab2.so2i73cehu.bundle.scp.css"
     },
     {
       "Id": "E:\\ITI\\ITI\\ASP.NET Core MVC\\Project - All Labs\\Lab2\\wwwroot\\MyFile.txt",
@@ -247,6 +247,10 @@
     {
       "Id": "E:\\ITI\\ITI\\ASP.NET Core MVC\\Project - All Labs\\Lab2\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Lab2.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Lab2.Microsoft.AspNetCore.StaticWebAssets.props",

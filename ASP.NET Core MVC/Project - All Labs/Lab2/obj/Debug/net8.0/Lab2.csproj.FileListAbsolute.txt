@@ -1147,3 +1147,7 @@ E:\ITI\ITI\ASP.NET Core MVC\Project - All Labs\Lab2\obj\Debug\net8.0\refint\Lab2
 E:\ITI\ITI\ASP.NET Core MVC\Project - All Labs\Lab2\obj\Debug\net8.0\Lab2.pdb
 E:\ITI\ITI\ASP.NET Core MVC\Project - All Labs\Lab2\obj\Debug\net8.0\Lab2.genruntimeconfig.cache
 E:\ITI\ITI\ASP.NET Core MVC\Project - All Labs\Lab2\obj\Debug\net8.0\ref\Lab2.dll
+E:\ITI\ITI\ASP.NET Core MVC\Project - All Labs\Lab2\bin\Debug\net8.0\Lab2.staticwebassets.endpoints.json
+E:\ITI\ITI\ASP.NET Core MVC\Project - All Labs\Lab2\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\ITI\ITI\ASP.NET Core MVC\Project - All Labs\Lab2\obj\Debug\net8.0\staticwebassets\msbuild.Lab2.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+E:\ITI\ITI\ASP.NET Core MVC\Project - All Labs\Lab2\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
